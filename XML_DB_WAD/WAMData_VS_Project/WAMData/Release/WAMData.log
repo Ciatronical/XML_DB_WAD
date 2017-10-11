@@ -1,0 +1,11 @@
+﻿  stdafx.cpp
+  Example.cpp
+Example.cpp(21): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+Example.cpp(39): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+Example.cpp(42): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+md5.obj : warning LNK4075: /EDITANDCONTINUE wird aufgrund der Angabe von /OPT:ICF ignoriert.
+  Code wird generiert.
+  All 474 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Codegenerierung ist abgeschlossen.
+  WAMData.vcxproj -> C:\XML_DB\WAMData\Release\WAMData.exe
+  WAMData.vcxproj -> C:\XML_DB\WAMData\Release\WAMData.pdb (Full PDB)

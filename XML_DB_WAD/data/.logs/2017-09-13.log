@@ -1,0 +1,452 @@
+07:59:21.088	SERVER	admin	OK	Server was started (port: 1984).
+07:59:21.353	SERVER	admin	OK	HTTP Server was started (port: 8984).
+07:59:22.617	127.0.0.1:49254	admin	REQUEST	[GET] http://localhost:8984/
+07:59:23.615	127.0.0.1:49254	admin	200		1006.62 ms
+08:17:40.107	127.0.0.1:49561	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	39.47 ms
+08:17:43.119	127.0.0.1:49561	admin	OK	Query executed in 3011.15 ms.	3011.95 ms
+08:17:43.155	127.0.0.1:49561	admin	REQUEST	EXIT	0.45 ms
+08:17:43.155	127.0.0.1:49561	admin	OK		0.28 ms
+08:18:09.819	127.0.0.1:49576	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid	0.93 ms
+08:18:10.313	127.0.0.1:49576	admin	OK	Query executed in 493.26 ms.	494.04 ms
+08:18:10.325	127.0.0.1:49576	admin	REQUEST	EXIT	0.25 ms
+08:18:10.325	127.0.0.1:49576	admin	OK		0.14 ms
+08:19:06.046	127.0.0.1:49588	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	1.02 ms
+08:19:08.797	127.0.0.1:49588	admin	OK	Query executed in 2750.39 ms.	2750.88 ms
+08:19:08.833	127.0.0.1:49588	admin	REQUEST	EXIT	0.26 ms
+08:19:08.833	127.0.0.1:49588	admin	OK		0.14 ms
+08:19:11.105	127.0.0.1:49590	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	1.06 ms
+08:19:11.540	127.0.0.1:49590	admin	OK	Query executed in 434.03 ms.	434.53 ms
+08:19:11.549	127.0.0.1:49590	admin	REQUEST	EXIT	0.26 ms
+08:19:11.549	127.0.0.1:49590	admin	OK		0.15 ms
+08:44:09.497	127.0.0.1:49973	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.79 ms
+08:44:12.335	127.0.0.1:49973	admin	OK	Query executed in 2837.25 ms.	2837.73 ms
+08:44:12.370	127.0.0.1:49973	admin	REQUEST	EXIT	0.31 ms
+08:44:12.370	127.0.0.1:49973	admin	OK		0.16 ms
+08:44:25.844	127.0.0.1:49977	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	1.2 ms
+08:44:26.284	127.0.0.1:49977	admin	OK	Query executed in 439.87 ms.	440.38 ms
+08:44:26.293	127.0.0.1:49977	admin	REQUEST	EXIT	0.25 ms
+08:44:26.293	127.0.0.1:49977	admin	OK		0.14 ms
+08:44:26.297	127.0.0.1:49978	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEELALIGNMENT/DATA/04597.xml')//WAMDATA/ADB return $wam/ITEM	0.32 ms
+08:44:26.298	127.0.0.1:49978	admin	ERROR	Stopped at ., 1/16: [FODC0002] Resource 'C:/XML_DB/Inter-Data/WHEELALIGNMENT/DATA/04597.xml' does not exist.	1.78 ms
+08:44:26.308	127.0.0.1:49978	admin	REQUEST	EXIT	0.21 ms
+08:44:26.309	127.0.0.1:49978	admin	OK		0.15 ms
+08:45:11.486	127.0.0.1:49988	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.62 ms
+08:45:14.269	127.0.0.1:49988	admin	OK	Query executed in 2782.51 ms.	2783.0 ms
+08:45:14.304	127.0.0.1:49988	admin	REQUEST	EXIT	0.25 ms
+08:45:14.304	127.0.0.1:49988	admin	OK		0.15 ms
+08:45:17.185	127.0.0.1:49990	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	0.71 ms
+08:45:17.611	127.0.0.1:49990	admin	OK	Query executed in 425.81 ms.	426.31 ms
+08:45:17.620	127.0.0.1:49990	admin	REQUEST	EXIT	0.26 ms
+08:45:17.620	127.0.0.1:49990	admin	OK		0.15 ms
+08:45:17.624	127.0.0.1:49991	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/04597.xml')//WAMDATA/ADB return $wam/ITEM	0.33 ms
+08:45:17.634	127.0.0.1:49991	admin	OK	Query executed in 10.0 ms.	10.26 ms
+08:45:17.966	127.0.0.1:49991	admin	REQUEST	EXIT	0.28 ms
+08:45:17.966	127.0.0.1:49991	admin	OK		0.17 ms
+09:00:41.284	127.0.0.1:50354	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.64 ms
+09:00:44.021	127.0.0.1:50354	admin	OK	Query executed in 2735.95 ms.	2736.44 ms
+09:00:44.056	127.0.0.1:50354	admin	REQUEST	EXIT	0.35 ms
+09:00:44.057	127.0.0.1:50354	admin	OK		0.27 ms
+09:00:54.320	127.0.0.1:50358	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	0.75 ms
+09:00:54.747	127.0.0.1:50358	admin	OK	Query executed in 426.65 ms.	427.15 ms
+09:00:54.756	127.0.0.1:50358	admin	REQUEST	EXIT	0.24 ms
+09:00:54.756	127.0.0.1:50358	admin	OK		0.15 ms
+09:00:54.760	127.0.0.1:50359	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/04597.xml')//WAMDATA/ADB return $wam/ITEM	0.22 ms
+09:00:54.765	127.0.0.1:50359	admin	OK	Query executed in 4.59 ms.	4.84 ms
+09:00:55.098	127.0.0.1:50359	admin	REQUEST	EXIT	0.26 ms
+09:00:55.098	127.0.0.1:50359	admin	OK		0.16 ms
+09:04:55.564	127.0.0.1:50445	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.51 ms
+09:04:58.349	127.0.0.1:50445	admin	OK	Query executed in 2784.2 ms.	2784.69 ms
+09:04:58.384	127.0.0.1:50445	admin	REQUEST	EXIT	0.29 ms
+09:04:58.385	127.0.0.1:50445	admin	OK		0.24 ms
+09:05:00.391	127.0.0.1:50447	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	0.74 ms
+09:05:00.817	127.0.0.1:50447	admin	OK	Query executed in 425.62 ms.	426.11 ms
+09:05:00.826	127.0.0.1:50447	admin	REQUEST	EXIT	0.34 ms
+09:05:00.827	127.0.0.1:50447	admin	OK		0.15 ms
+09:05:00.830	127.0.0.1:50448	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/04597.xml')//WAMDATA/ADB return $wam/ITEM	0.18 ms
+09:05:00.836	127.0.0.1:50448	admin	OK	Query executed in 5.49 ms.	5.74 ms
+09:05:01.169	127.0.0.1:50448	admin	REQUEST	EXIT	0.31 ms
+09:05:01.169	127.0.0.1:50448	admin	OK		0.17 ms
+10:01:43.147	127.0.0.1:51322	admin	REQUEST	XQUERY for $manuf in doc('C:/XML_DB/Inter-Data/middata_V49_4 BMW ONLY_XML.xml')//record where $manuf/manufacturer='BMW' return $manuf	0.51 ms
+10:01:44.439	127.0.0.1:51322	admin	OK	Query executed in 1290.79 ms.	1291.31 ms
+10:02:06.141	127.0.0.1:51322	admin	REQUEST	EXIT	0.3 ms
+10:02:06.141	127.0.0.1:51322	admin	OK		0.15 ms
+10:28:11.995	127.0.0.1:51720	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.65 ms
+10:28:14.735	127.0.0.1:51720	admin	OK	Query executed in 2739.15 ms.	2739.62 ms
+10:28:14.772	127.0.0.1:51720	admin	REQUEST	EXIT	0.3 ms
+10:28:14.772	127.0.0.1:51720	admin	OK		0.16 ms
+10:28:23.539	127.0.0.1:51725	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	0.65 ms
+10:28:24.015	127.0.0.1:51725	admin	OK	Query executed in 475.24 ms.	475.72 ms
+10:28:24.023	127.0.0.1:51725	admin	REQUEST	EXIT	0.29 ms
+10:28:24.023	127.0.0.1:51725	admin	OK		0.16 ms
+10:28:24.027	127.0.0.1:51726	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/04597.xml')//WAMDATA/ADB return $wam/ITEM	0.31 ms
+10:28:24.031	127.0.0.1:51726	admin	OK	Query executed in 4.12 ms.	4.36 ms
+10:28:24.364	127.0.0.1:51726	admin	REQUEST	EXIT	0.27 ms
+10:28:24.364	127.0.0.1:51726	admin	OK		0.16 ms
+11:12:10.084	127.0.0.1:52945	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.66 ms
+11:12:12.791	127.0.0.1:52945	admin	OK	Query executed in 2705.06 ms.	2705.53 ms
+11:12:12.829	127.0.0.1:52945	admin	REQUEST	EXIT	0.28 ms
+11:12:12.830	127.0.0.1:52945	admin	OK		0.16 ms
+11:12:14.920	127.0.0.1:52947	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	0.67 ms
+11:12:15.357	127.0.0.1:52947	admin	OK	Query executed in 436.42 ms.	436.9 ms
+11:13:44.193	127.0.0.1:52975	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.53 ms
+11:13:46.919	127.0.0.1:52975	admin	OK	Query executed in 2725.53 ms.	2726.01 ms
+11:13:46.958	127.0.0.1:52975	admin	REQUEST	EXIT	0.35 ms
+11:13:46.958	127.0.0.1:52975	admin	OK		0.15 ms
+11:13:51.446	127.0.0.1:52978	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	0.62 ms
+11:13:51.878	127.0.0.1:52978	admin	OK	Query executed in 431.27 ms.	431.75 ms
+11:15:10.294	127.0.0.1:52994	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.52 ms
+11:15:13.064	127.0.0.1:52994	admin	OK	Query executed in 2769.49 ms.	2769.96 ms
+11:15:13.103	127.0.0.1:52994	admin	REQUEST	EXIT	0.28 ms
+11:15:13.103	127.0.0.1:52994	admin	OK		0.13 ms
+11:15:15.825	127.0.0.1:52996	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	0.51 ms
+11:15:16.262	127.0.0.1:52996	admin	OK	Query executed in 436.05 ms.	436.55 ms
+11:16:20.332	127.0.0.1:53020	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.51 ms
+11:16:23.066	127.0.0.1:53020	admin	OK	Query executed in 2733.6 ms.	2734.07 ms
+11:16:23.105	127.0.0.1:53020	admin	REQUEST	EXIT	0.23 ms
+11:16:23.105	127.0.0.1:53020	admin	OK		0.14 ms
+11:16:25.175	127.0.0.1:53022	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	0.65 ms
+11:16:25.596	127.0.0.1:53022	admin	OK	Query executed in 420.74 ms.	421.24 ms
+11:39:59.058	127.0.0.1:53523	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.67 ms
+11:40:01.810	127.0.0.1:53523	admin	OK	Query executed in 2752.04 ms.	2752.52 ms
+11:40:01.848	127.0.0.1:53523	admin	REQUEST	EXIT	0.28 ms
+11:40:01.848	127.0.0.1:53523	admin	OK		0.14 ms
+11:40:08.556	127.0.0.1:53526	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	0.58 ms
+11:40:08.986	127.0.0.1:53526	admin	OK	Query executed in 429.14 ms.	429.62 ms
+11:40:08.995	127.0.0.1:53526	admin	REQUEST	EXIT	0.23 ms
+11:40:08.996	127.0.0.1:53526	admin	OK		1.2 ms
+11:40:08.999	127.0.0.1:53527	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/04597.xml')//WAMDATA/ADB return $wam/ITEM	0.25 ms
+11:40:09.003	127.0.0.1:53527	admin	OK	Query executed in 3.65 ms.	3.87 ms
+11:40:09.351	127.0.0.1:53527	admin	REQUEST	EXIT	0.29 ms
+11:40:09.351	127.0.0.1:53527	admin	OK		0.16 ms
+12:23:29.627	127.0.0.1:54369	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.47 ms
+12:23:32.396	127.0.0.1:54369	admin	OK	Query executed in 2769.05 ms.	2769.55 ms
+12:23:32.434	127.0.0.1:54369	admin	REQUEST	EXIT	0.25 ms
+12:23:32.435	127.0.0.1:54369	admin	OK		0.15 ms
+12:24:56.627	127.0.0.1:54387	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	0.65 ms
+12:24:57.064	127.0.0.1:54387	admin	OK	Query executed in 436.19 ms.	436.68 ms
+12:24:57.073	127.0.0.1:54387	admin	REQUEST	EXIT	0.24 ms
+12:24:57.073	127.0.0.1:54387	admin	OK		0.14 ms
+12:24:57.077	127.0.0.1:54388	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/04597.xml')//WAMDATA/ADB return $wam/ITEM	0.18 ms
+12:24:57.081	127.0.0.1:54388	admin	OK	Query executed in 3.6 ms.	3.82 ms
+12:24:57.426	127.0.0.1:54388	admin	REQUEST	EXIT	0.31 ms
+12:24:57.427	127.0.0.1:54388	admin	OK		0.16 ms
+12:26:15.573	127.0.0.1:54427	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.53 ms
+12:26:18.293	127.0.0.1:54427	admin	OK	Query executed in 2719.66 ms.	2720.14 ms
+12:26:18.332	127.0.0.1:54427	admin	REQUEST	EXIT	0.35 ms
+12:26:18.332	127.0.0.1:54427	admin	OK		0.14 ms
+12:26:21.224	127.0.0.1:54430	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	0.71 ms
+12:26:21.659	127.0.0.1:54430	admin	OK	Query executed in 433.83 ms.	434.31 ms
+12:26:21.668	127.0.0.1:54430	admin	REQUEST	EXIT	0.26 ms
+12:26:21.668	127.0.0.1:54430	admin	OK		0.17 ms
+12:26:21.672	127.0.0.1:54432	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/04597.xml')//WAMDATA/ADB return $wam/ITEM	0.27 ms
+12:26:21.676	127.0.0.1:54432	admin	OK	Query executed in 3.53 ms.	3.77 ms
+12:26:22.026	127.0.0.1:54432	admin	REQUEST	EXIT	0.28 ms
+12:26:22.026	127.0.0.1:54432	admin	OK		0.15 ms
+12:33:24.325	127.0.0.1:54588	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.48 ms
+12:33:27.107	127.0.0.1:54588	admin	OK	Query executed in 2781.71 ms.	2782.21 ms
+12:33:27.147	127.0.0.1:54588	admin	REQUEST	EXIT	0.29 ms
+12:33:27.147	127.0.0.1:54588	admin	OK		0.13 ms
+12:33:34.098	127.0.0.1:54591	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	0.4 ms
+12:33:34.528	127.0.0.1:54591	admin	OK	Query executed in 429.94 ms.	430.27 ms
+12:33:34.537	127.0.0.1:54591	admin	REQUEST	EXIT	0.23 ms
+12:33:34.537	127.0.0.1:54591	admin	OK		0.14 ms
+12:33:34.541	127.0.0.1:54592	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/04597.xml')//WAMDATA/ADB return $wam/ITEM	0.29 ms
+12:33:34.545	127.0.0.1:54592	admin	OK	Query executed in 3.41 ms.	3.65 ms
+12:33:34.893	127.0.0.1:54592	admin	REQUEST	EXIT	0.27 ms
+12:33:34.894	127.0.0.1:54592	admin	OK		0.18 ms
+12:35:53.680	127.0.0.1:54622	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.48 ms
+12:35:56.467	127.0.0.1:54622	admin	OK	Query executed in 2786.09 ms.	2786.59 ms
+12:35:56.505	127.0.0.1:54622	admin	REQUEST	EXIT	0.29 ms
+12:35:56.505	127.0.0.1:54622	admin	OK		0.13 ms
+12:35:57.435	127.0.0.1:54624	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	0.6 ms
+12:35:57.859	127.0.0.1:54624	admin	OK	Query executed in 422.88 ms.	423.34 ms
+12:35:57.868	127.0.0.1:54624	admin	REQUEST	EXIT	0.23 ms
+12:35:57.868	127.0.0.1:54624	admin	OK		0.16 ms
+12:35:57.872	127.0.0.1:54625	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/04597.xml')//WAMDATA/ADB return $wam/ITEM	0.17 ms
+12:35:57.876	127.0.0.1:54625	admin	OK	Query executed in 3.7 ms.	3.92 ms
+12:35:58.220	127.0.0.1:54625	admin	REQUEST	EXIT	0.3 ms
+12:35:58.220	127.0.0.1:54625	admin	OK		0.17 ms
+12:54:51.231	127.0.0.1:55163	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.36 ms
+12:54:53.963	127.0.0.1:55163	admin	OK	Query executed in 2731.96 ms.	2732.35 ms
+12:54:54.004	127.0.0.1:55163	admin	REQUEST	EXIT	0.28 ms
+12:54:54.004	127.0.0.1:55163	admin	OK		0.13 ms
+12:55:03.084	127.0.0.1:55166	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	0.59 ms
+12:55:03.507	127.0.0.1:55166	admin	OK	Query executed in 422.82 ms.	423.32 ms
+12:55:03.516	127.0.0.1:55166	admin	REQUEST	EXIT	0.24 ms
+12:55:03.517	127.0.0.1:55166	admin	OK		0.21 ms
+12:55:03.520	127.0.0.1:55167	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/04597.xml')//WAMDATA/ADB return $wam/ITEM	0.2 ms
+12:55:03.524	127.0.0.1:55167	admin	OK	Query executed in 3.58 ms.	3.82 ms
+12:55:03.874	127.0.0.1:55167	admin	REQUEST	EXIT	0.28 ms
+12:55:03.874	127.0.0.1:55167	admin	OK		0.15 ms
+13:01:21.858	127.0.0.1:55380	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '404' and $mid / tsn = '00' order by $mid ascending return $mid	0.46 ms
+13:01:24.621	127.0.0.1:55380	admin	OK	Query executed in 2762.95 ms.	2763.4 ms
+13:01:24.626	127.0.0.1:55380	admin	REQUEST	EXIT	0.26 ms
+13:01:24.626	127.0.0.1:55380	admin	OK		0.14 ms
+13:01:49.897	127.0.0.1:55389	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.49 ms
+13:01:52.715	127.0.0.1:55389	admin	OK	Query executed in 2817.38 ms.	2817.86 ms
+13:01:52.751	127.0.0.1:55389	admin	REQUEST	EXIT	0.19 ms
+13:01:52.751	127.0.0.1:55389	admin	OK		0.13 ms
+13:01:55.978	127.0.0.1:55391	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	0.62 ms
+13:01:56.405	127.0.0.1:55391	admin	OK	Query executed in 426.77 ms.	427.24 ms
+13:01:56.415	127.0.0.1:55391	admin	REQUEST	EXIT	0.31 ms
+13:01:56.415	127.0.0.1:55391	admin	OK		0.16 ms
+13:01:56.418	127.0.0.1:55393	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/04597.xml')//WAMDATA/ADB return $wam/ITEM	0.25 ms
+13:01:56.422	127.0.0.1:55393	admin	OK	Query executed in 3.34 ms.	3.57 ms
+13:01:56.819	127.0.0.1:55393	admin	REQUEST	EXIT	0.28 ms
+13:01:56.819	127.0.0.1:55393	admin	OK		0.19 ms
+13:03:53.020	127.0.0.1:55445	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.32 ms
+13:03:55.966	127.0.0.1:55445	admin	OK	Query executed in 2945.98 ms.	2946.3 ms
+13:03:56.004	127.0.0.1:55445	admin	REQUEST	EXIT	0.34 ms
+13:03:56.004	127.0.0.1:55445	admin	OK		0.17 ms
+13:03:58.776	127.0.0.1:55447	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	0.32 ms
+13:03:59.240	127.0.0.1:55447	admin	OK	Query executed in 463.64 ms.	463.98 ms
+13:03:59.251	127.0.0.1:55447	admin	REQUEST	EXIT	0.47 ms
+13:03:59.252	127.0.0.1:55447	admin	OK		0.23 ms
+13:03:59.256	127.0.0.1:55448	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/04597.xml')//WAMDATA/ADB return $wam/ITEM	0.19 ms
+13:03:59.259	127.0.0.1:55448	admin	OK	Query executed in 3.43 ms.	3.7 ms
+13:03:59.727	127.0.0.1:55448	admin	REQUEST	EXIT	0.27 ms
+13:03:59.727	127.0.0.1:55448	admin	OK		0.18 ms
+14:08:29.102	127.0.0.1:56689	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.45 ms
+14:08:32.376	127.0.0.1:56689	admin	OK	Query executed in 3270.15 ms.	3274.07 ms
+14:08:32.414	127.0.0.1:56689	admin	REQUEST	EXIT	0.24 ms
+14:08:32.414	127.0.0.1:56689	admin	OK		0.13 ms
+14:08:35.189	127.0.0.1:56692	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	0.65 ms
+14:08:35.654	127.0.0.1:56692	admin	OK	Query executed in 464.61 ms.	465.22 ms
+14:08:35.665	127.0.0.1:56692	admin	REQUEST	EXIT	0.31 ms
+14:08:35.665	127.0.0.1:56692	admin	OK		0.16 ms
+14:08:35.669	127.0.0.1:56694	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/0.xml')//WAMDATA/ADB return $wam/ITEM	0.5 ms
+14:08:35.670	127.0.0.1:56694	admin	ERROR	Stopped at ., 1/16: [FODC0002] Resource 'C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/0.xml' does not exist.	0.56 ms
+14:08:35.682	127.0.0.1:56694	admin	REQUEST	EXIT	0.16 ms
+14:08:35.682	127.0.0.1:56694	admin	OK		0.13 ms
+14:10:59.222	127.0.0.1:56723	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.47 ms
+14:11:01.963	127.0.0.1:56723	admin	OK	Query executed in 2740.88 ms.	2741.36 ms
+14:11:02.001	127.0.0.1:56723	admin	REQUEST	EXIT	0.25 ms
+14:11:02.001	127.0.0.1:56723	admin	OK		0.13 ms
+14:11:03.983	127.0.0.1:56725	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	0.58 ms
+14:11:04.413	127.0.0.1:56725	admin	OK	Query executed in 430.12 ms.	430.58 ms
+14:11:04.424	127.0.0.1:56725	admin	REQUEST	EXIT	0.21 ms
+14:11:04.424	127.0.0.1:56725	admin	OK		0.15 ms
+14:11:04.428	127.0.0.1:56726	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/0.xml')//WAMDATA/ADB return $wam/ITEM	0.19 ms
+14:11:04.429	127.0.0.1:56726	admin	ERROR	Stopped at ., 1/16: [FODC0002] Resource 'C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/0.xml' does not exist.	0.51 ms
+14:11:04.441	127.0.0.1:56726	admin	REQUEST	EXIT	0.21 ms
+14:11:04.441	127.0.0.1:56726	admin	OK		0.15 ms
+14:12:46.063	127.0.0.1:56756	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.57 ms
+14:12:48.922	127.0.0.1:56756	admin	OK	Query executed in 2858.74 ms.	2859.14 ms
+14:12:48.962	127.0.0.1:56756	admin	REQUEST	EXIT	0.31 ms
+14:12:48.962	127.0.0.1:56756	admin	OK		0.14 ms
+14:12:51.008	127.0.0.1:56758	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	0.49 ms
+14:12:51.441	127.0.0.1:56758	admin	OK	Query executed in 432.84 ms.	433.33 ms
+14:12:51.451	127.0.0.1:56758	admin	REQUEST	EXIT	0.25 ms
+14:12:51.451	127.0.0.1:56758	admin	OK		0.14 ms
+14:12:51.455	127.0.0.1:56759	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/04597.xml')//WAMDATA/ADB return $wam/ITEM	0.29 ms
+14:12:51.460	127.0.0.1:56759	admin	OK	Query executed in 5.23 ms.	5.47 ms
+14:12:51.822	127.0.0.1:56759	admin	REQUEST	EXIT	0.24 ms
+14:12:51.822	127.0.0.1:56759	admin	OK		0.16 ms
+14:13:27.993	127.0.0.1:56767	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.66 ms
+14:13:30.846	127.0.0.1:56767	admin	OK	Query executed in 2852.77 ms.	2853.25 ms
+14:13:30.883	127.0.0.1:56767	admin	REQUEST	EXIT	0.24 ms
+14:13:30.883	127.0.0.1:56767	admin	OK		0.17 ms
+14:13:32.506	127.0.0.1:56769	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	0.62 ms
+14:13:32.951	127.0.0.1:56769	admin	OK	Query executed in 444.44 ms.	444.95 ms
+14:13:32.962	127.0.0.1:56769	admin	REQUEST	EXIT	0.22 ms
+14:13:32.962	127.0.0.1:56769	admin	OK		0.14 ms
+14:13:32.966	127.0.0.1:56770	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/04597.xml')//WAMDATA/ADB return $wam/ITEM	0.23 ms
+14:13:32.970	127.0.0.1:56770	admin	OK	Query executed in 3.17 ms.	3.41 ms
+14:13:33.412	127.0.0.1:56770	admin	REQUEST	EXIT	0.29 ms
+14:13:33.412	127.0.0.1:56770	admin	OK		0.18 ms
+14:14:45.372	127.0.0.1:56786	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '754' order by $mid ascending return $mid	0.31 ms
+14:14:48.120	127.0.0.1:56786	admin	OK	Query executed in 2747.57 ms.	2747.87 ms
+14:14:48.155	127.0.0.1:56786	admin	REQUEST	EXIT	0.24 ms
+14:14:48.155	127.0.0.1:56786	admin	OK		0.13 ms
+14:14:53.111	127.0.0.1:56788	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW13653']//Category[@ID='WAM'] return $mid/Link	0.45 ms
+14:14:53.563	127.0.0.1:56788	admin	OK	Query executed in 450.71 ms.	451.17 ms
+14:14:53.647	127.0.0.1:56788	admin	REQUEST	EXIT	0.43 ms
+14:14:53.647	127.0.0.1:56788	admin	OK		0.18 ms
+14:20:18.670	127.0.0.1:56872	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/51769.xml')//WAMDATA/ADB return $wam/ITEM	0.36 ms
+14:20:18.678	127.0.0.1:56872	admin	OK	Query executed in 8.19 ms.	8.5 ms
+14:20:19.123	127.0.0.1:56872	admin	REQUEST	EXIT	0.31 ms
+14:20:19.123	127.0.0.1:56872	admin	OK		0.19 ms
+15:44:09.985	127.0.0.1:58367	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return data($mid/record/mid)	0.44 ms
+15:44:12.695	127.0.0.1:58367	admin	OK	Query executed in 2710.17 ms.	2710.56 ms
+15:46:17.426	127.0.0.1:58403	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid)	0.72 ms
+15:46:17.427	127.0.0.1:58403	admin	ERROR	Stopped at ., 1/162: [XPST0003] Unexpected end of query: ')'.	1.11 ms
+15:46:17.442	127.0.0.1:58403	admin	REQUEST	EXIT	0.36 ms
+15:46:17.442	127.0.0.1:58403	admin	OK		0.29 ms
+15:47:28.056	127.0.0.1:58418	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.62 ms
+15:47:30.784	127.0.0.1:58418	admin	OK	Query executed in 2727.6 ms.	2728.09 ms
+15:47:30.822	127.0.0.1:58418	admin	REQUEST	EXIT	0.33 ms
+15:47:30.822	127.0.0.1:58418	admin	OK		0.15 ms
+15:47:34.033	127.0.0.1:58420	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return data($mid/Link/@*	0.6 ms
+15:47:34.034	127.0.0.1:58420	admin	ERROR	Stopped at ., 1/133: [XPST0003] Expecting closing bracket: data.	0.96 ms
+15:47:34.054	127.0.0.1:58421	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return data($mid/Link/@*)	0.45 ms
+15:47:34.478	127.0.0.1:58421	admin	OK	Query executed in 423.24 ms.	423.7 ms
+15:47:34.485	127.0.0.1:58421	admin	REQUEST	EXIT	0.22 ms
+15:47:34.485	127.0.0.1:58420	admin	REQUEST	EXIT	0.25 ms
+15:47:34.485	127.0.0.1:58421	admin	OK		0.2 ms
+15:47:34.486	127.0.0.1:58420	admin	OK		0.19 ms
+15:48:00.638	127.0.0.1:58427	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '756' order by $mid ascending return $mid	0.6 ms
+15:48:03.445	127.0.0.1:58427	admin	OK	Query executed in 2806.43 ms.	2806.88 ms
+15:48:03.464	127.0.0.1:58427	admin	REQUEST	EXIT	0.19 ms
+15:48:03.464	127.0.0.1:58427	admin	OK		0.13 ms
+15:48:03.467	127.0.0.1:58429	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW13241']//Category[@ID='WAM'] return data($mid/Link/@*	0.25 ms
+15:48:03.468	127.0.0.1:58429	admin	ERROR	Stopped at ., 1/133: [XPST0003] Expecting closing bracket: data.	0.36 ms
+15:48:03.476	127.0.0.1:58430	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW13241']//Category[@ID='WAM'] return data($mid/Link/@*)	0.25 ms
+15:48:03.885	127.0.0.1:58430	admin	OK	Query executed in 409.38 ms.	409.63 ms
+15:48:03.889	127.0.0.1:58430	admin	REQUEST	EXIT	0.18 ms
+15:48:03.890	127.0.0.1:58430	admin	OK		0.13 ms
+15:48:03.890	127.0.0.1:58429	admin	REQUEST	EXIT	0.22 ms
+15:48:03.890	127.0.0.1:58429	admin	OK		0.16 ms
+15:48:49.557	127.0.0.1:58440	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '756' order by $mid ascending return $mid	0.47 ms
+15:48:52.334	127.0.0.1:58440	admin	OK	Query executed in 2776.85 ms.	2777.31 ms
+15:48:52.354	127.0.0.1:58440	admin	REQUEST	EXIT	0.19 ms
+15:48:52.354	127.0.0.1:58440	admin	OK		0.13 ms
+15:48:52.357	127.0.0.1:58441	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW13241']//Category[@ID='WAM'] return data($mid/Link/@*	0.24 ms
+15:48:52.358	127.0.0.1:58441	admin	ERROR	Stopped at ., 1/133: [XPST0003] Expecting closing bracket: data.	0.35 ms
+15:48:52.366	127.0.0.1:58442	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW13241']//Category[@ID='WAM'] return data($mid/Link/@*	0.26 ms
+15:48:52.366	127.0.0.1:58442	admin	ERROR	Stopped at ., 1/133: [XPST0003] Expecting closing bracket: data.	0.31 ms
+15:48:52.372	127.0.0.1:58442	admin	REQUEST	EXIT	0.15 ms
+15:48:52.372	127.0.0.1:58442	admin	OK		0.13 ms
+15:48:52.372	127.0.0.1:58441	admin	REQUEST	EXIT	0.14 ms
+15:48:52.372	127.0.0.1:58441	admin	OK		0.13 ms
+15:50:07.634	127.0.0.1:58458	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return data($mid/record/mid)	0.5 ms
+15:50:10.422	127.0.0.1:58458	admin	OK	Query executed in 2787.09 ms.	2787.56 ms
+15:53:26.380	127.0.0.1:58508	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '756' order by $mid ascending return $mid	1.01 ms
+15:53:29.175	127.0.0.1:58508	admin	OK	Query executed in 2794.29 ms.	2794.75 ms
+15:53:29.195	127.0.0.1:58508	admin	REQUEST	EXIT	0.24 ms
+15:53:29.195	127.0.0.1:58508	admin	OK		0.13 ms
+15:53:29.199	127.0.0.1:58510	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW13241']//Category[@ID='WAM'] return data($mid/Link/@*	0.33 ms
+15:53:29.199	127.0.0.1:58510	admin	ERROR	Stopped at ., 1/133: [XPST0003] Expecting closing bracket: data.	0.39 ms
+15:53:29.205	127.0.0.1:58510	admin	REQUEST	EXIT	0.16 ms
+15:53:29.205	127.0.0.1:58510	admin	OK		0.13 ms
+15:53:54.641	127.0.0.1:58516	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.48 ms
+15:53:57.451	127.0.0.1:58516	admin	OK	Query executed in 2809.87 ms.	2810.35 ms
+15:53:57.488	127.0.0.1:58516	admin	REQUEST	EXIT	0.19 ms
+15:53:57.488	127.0.0.1:58516	admin	OK		0.13 ms
+15:53:59.440	127.0.0.1:58518	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return data($mid/Link/@*	0.35 ms
+15:53:59.441	127.0.0.1:58518	admin	ERROR	Stopped at ., 1/133: [XPST0003] Expecting closing bracket: data.	0.57 ms
+15:53:59.451	127.0.0.1:58518	admin	REQUEST	EXIT	0.33 ms
+15:53:59.451	127.0.0.1:58518	admin	OK		0.22 ms
+15:56:14.789	127.0.0.1:58546	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '765' order by $mid ascending return $mid	0.47 ms
+15:56:17.543	127.0.0.1:58546	admin	OK	Query executed in 2752.99 ms.	2753.48 ms
+15:56:17.563	127.0.0.1:58546	admin	REQUEST	EXIT	0.23 ms
+15:56:17.563	127.0.0.1:58546	admin	OK		0.12 ms
+15:56:17.567	127.0.0.1:58547	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW14752']//Category[@ID='WAM'] return data($mid/Link/@*)	0.22 ms
+15:56:17.977	127.0.0.1:58547	admin	OK	Query executed in 409.81 ms.	410.09 ms
+15:56:17.982	127.0.0.1:58547	admin	REQUEST	EXIT	0.24 ms
+15:56:17.982	127.0.0.1:58547	admin	OK		0.16 ms
+16:07:07.182	127.0.0.1:58706	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '765' order by $mid ascending return $mid	0.45 ms
+16:07:09.958	127.0.0.1:58706	admin	OK	Query executed in 2775.73 ms.	2776.28 ms
+16:07:09.978	127.0.0.1:58706	admin	REQUEST	EXIT	0.24 ms
+16:07:09.978	127.0.0.1:58706	admin	OK		0.13 ms
+16:07:09.982	127.0.0.1:58708	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW14752']//Category[@ID='WAM'] return data($mid/Link/@*)	0.17 ms
+16:07:10.393	127.0.0.1:58708	admin	OK	Query executed in 411.48 ms.	411.74 ms
+16:07:10.398	127.0.0.1:58708	admin	REQUEST	EXIT	0.23 ms
+16:07:10.398	127.0.0.1:58708	admin	OK		0.16 ms
+16:08:50.667	127.0.0.1:58741	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '756' order by $mid ascending return $mid	0.49 ms
+16:08:53.459	127.0.0.1:58741	admin	OK	Query executed in 2791.13 ms.	2791.6 ms
+16:08:53.478	127.0.0.1:58741	admin	REQUEST	EXIT	0.22 ms
+16:08:53.478	127.0.0.1:58741	admin	OK		0.12 ms
+16:08:53.481	127.0.0.1:58743	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW13241']//Category[@ID='WAM'] return data($mid/Link/@*)	0.16 ms
+16:08:53.894	127.0.0.1:58743	admin	OK	Query executed in 412.45 ms.	412.78 ms
+16:08:53.898	127.0.0.1:58743	admin	REQUEST	EXIT	0.23 ms
+16:08:53.898	127.0.0.1:58743	admin	OK		0.17 ms
+16:09:07.514	127.0.0.1:58746	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '765' order by $mid ascending return $mid	0.45 ms
+16:09:10.269	127.0.0.1:58746	admin	OK	Query executed in 2754.17 ms.	2754.63 ms
+16:09:10.288	127.0.0.1:58746	admin	REQUEST	EXIT	0.19 ms
+16:09:10.288	127.0.0.1:58746	admin	OK		0.13 ms
+16:09:10.292	127.0.0.1:58748	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW14752']//Category[@ID='WAM'] return data($mid/Link/@*)	0.18 ms
+16:09:10.702	127.0.0.1:58748	admin	OK	Query executed in 409.41 ms.	409.7 ms
+16:09:10.706	127.0.0.1:58748	admin	REQUEST	EXIT	0.16 ms
+16:09:10.706	127.0.0.1:58748	admin	OK		0.11 ms
+16:16:22.385	127.0.0.1:58855	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '765' order by $mid ascending return $mid	0.46 ms
+16:16:25.217	127.0.0.1:58855	admin	OK	Query executed in 2830.04 ms.	2830.5 ms
+16:16:25.236	127.0.0.1:58855	admin	REQUEST	EXIT	0.23 ms
+16:16:25.236	127.0.0.1:58855	admin	OK		0.13 ms
+16:16:25.240	127.0.0.1:58857	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW14752']//Category[@ID='WAM'] return data($mid/Link/@*)	0.25 ms
+16:16:25.643	127.0.0.1:58857	admin	OK	Query executed in 402.85 ms.	403.13 ms
+16:16:25.648	127.0.0.1:58857	admin	REQUEST	EXIT	0.25 ms
+16:16:25.648	127.0.0.1:58857	admin	OK		0.16 ms
+16:19:11.372	127.0.0.1:58898	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '765' order by $mid ascending return $mid	0.49 ms
+16:19:14.181	127.0.0.1:58898	admin	OK	Query executed in 2808.64 ms.	2809.09 ms
+16:19:14.201	127.0.0.1:58898	admin	REQUEST	EXIT	0.23 ms
+16:19:14.201	127.0.0.1:58898	admin	OK		0.12 ms
+16:19:14.204	127.0.0.1:58900	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW14752']//Category[@ID='WAM'] return data($mid/Link/@*)	0.19 ms
+16:19:14.611	127.0.0.1:58900	admin	OK	Query executed in 406.68 ms.	406.97 ms
+16:19:14.616	127.0.0.1:58900	admin	REQUEST	EXIT	0.2 ms
+16:19:14.616	127.0.0.1:58900	admin	OK		0.16 ms
+16:21:06.840	127.0.0.1:58923	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '765' order by $mid ascending return $mid	0.49 ms
+16:21:09.640	127.0.0.1:58923	admin	OK	Query executed in 2799.23 ms.	2799.69 ms
+16:21:09.660	127.0.0.1:58923	admin	REQUEST	EXIT	0.22 ms
+16:21:09.660	127.0.0.1:58923	admin	OK		0.12 ms
+16:21:09.663	127.0.0.1:58925	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW14752']//Category[@ID='WAM'] return data($mid/Link/@*)	0.29 ms
+16:21:10.081	127.0.0.1:58925	admin	OK	Query executed in 417.76 ms.	418.05 ms
+16:21:10.086	127.0.0.1:58925	admin	REQUEST	EXIT	0.22 ms
+16:21:10.086	127.0.0.1:58925	admin	OK		0.15 ms
+16:23:18.843	127.0.0.1:58961	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '765' order by $mid ascending return $mid	0.5 ms
+16:23:21.651	127.0.0.1:58961	admin	OK	Query executed in 2806.9 ms.	2807.51 ms
+16:23:21.671	127.0.0.1:58961	admin	REQUEST	EXIT	0.22 ms
+16:23:21.671	127.0.0.1:58961	admin	OK		0.12 ms
+16:23:21.674	127.0.0.1:58963	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW14752']//Category[@ID='WAM'] return data($mid/Link/@*)	0.17 ms
+16:23:22.082	127.0.0.1:58963	admin	OK	Query executed in 407.85 ms.	408.13 ms
+16:23:22.087	127.0.0.1:58963	admin	REQUEST	EXIT	0.24 ms
+16:23:22.087	127.0.0.1:58963	admin	OK		0.18 ms
+16:24:55.200	127.0.0.1:58982	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '765' order by $mid ascending return $mid	0.49 ms
+16:24:58.003	127.0.0.1:58982	admin	OK	Query executed in 2802.55 ms.	2803.01 ms
+16:24:58.023	127.0.0.1:58982	admin	REQUEST	EXIT	0.24 ms
+16:24:58.023	127.0.0.1:58982	admin	OK		0.13 ms
+16:24:58.027	127.0.0.1:58984	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW14752']//Category[@ID='WAM'] return data($mid/Link/@*)	0.3 ms
+16:24:58.438	127.0.0.1:58984	admin	OK	Query executed in 410.86 ms.	411.12 ms
+16:24:58.442	127.0.0.1:58984	admin	REQUEST	EXIT	0.24 ms
+16:24:58.443	127.0.0.1:58984	admin	OK		0.17 ms
+16:27:33.187	127.0.0.1:59015	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '765' order by $mid ascending return $mid	0.44 ms
+16:27:35.976	127.0.0.1:59015	admin	OK	Query executed in 2788.87 ms.	2789.33 ms
+16:27:35.996	127.0.0.1:59015	admin	REQUEST	EXIT	0.24 ms
+16:27:35.996	127.0.0.1:59015	admin	OK		0.13 ms
+16:27:36.000	127.0.0.1:59017	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW14752']//Category[@ID='WAM'] return data($mid/Link/@*)	0.26 ms
+16:27:36.430	127.0.0.1:59017	admin	OK	Query executed in 430.43 ms.	430.7 ms
+16:33:08.469	127.0.0.1:59101	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '765' order by $mid ascending return $mid	0.23 ms
+16:33:11.260	127.0.0.1:59101	admin	OK	Query executed in 2790.32 ms.	2790.59 ms
+16:33:11.280	127.0.0.1:59101	admin	REQUEST	EXIT	0.23 ms
+16:33:11.280	127.0.0.1:59101	admin	OK		0.13 ms
+16:33:11.283	127.0.0.1:59102	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW14752']//Category[@ID='WAM'] return $mid)	0.24 ms
+16:33:11.284	127.0.0.1:59102	admin	ERROR	Stopped at ., 1/121: [XPST0003] Unexpected end of query: ')'.	0.33 ms
+16:33:11.290	127.0.0.1:59102	admin	REQUEST	EXIT	0.17 ms
+16:33:11.290	127.0.0.1:59102	admin	OK		0.13 ms
+16:33:37.022	127.0.0.1:59109	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '765' order by $mid ascending return $mid	0.47 ms
+16:33:39.846	127.0.0.1:59109	admin	OK	Query executed in 2823.56 ms.	2824.02 ms
+16:33:39.866	127.0.0.1:59109	admin	REQUEST	EXIT	0.18 ms
+16:33:39.866	127.0.0.1:59109	admin	OK		0.13 ms
+16:33:39.869	127.0.0.1:59111	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW14752']//Category[@ID='WAM'] return $mid)	0.22 ms
+16:33:39.870	127.0.0.1:59111	admin	ERROR	Stopped at ., 1/121: [XPST0003] Unexpected end of query: ')'.	0.3 ms
+16:33:39.875	127.0.0.1:59111	admin	REQUEST	EXIT	0.14 ms
+16:33:39.876	127.0.0.1:59111	admin	OK		0.12 ms
+16:34:04.471	127.0.0.1:59117	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '765' order by $mid ascending return $mid	0.38 ms
+16:34:07.217	127.0.0.1:59117	admin	OK	Query executed in 2745.51 ms.	2745.9 ms
+16:34:07.237	127.0.0.1:59117	admin	REQUEST	EXIT	0.19 ms
+16:34:07.237	127.0.0.1:59117	admin	OK		0.13 ms
+16:34:07.241	127.0.0.1:59118	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW14752']//Category[@ID='WAM'] return $mid	0.28 ms
+16:34:07.647	127.0.0.1:59118	admin	OK	Query executed in 406.55 ms.	406.81 ms
+16:34:07.669	127.0.0.1:59118	admin	REQUEST	EXIT	0.17 ms
+16:34:07.669	127.0.0.1:59118	admin	OK		0.12 ms
+16:40:48.140	127.0.0.1:59226	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '765' order by $mid ascending return $mid	0.46 ms
+16:40:50.924	127.0.0.1:59226	admin	OK	Query executed in 2782.91 ms.	2783.37 ms
+16:40:50.943	127.0.0.1:59226	admin	REQUEST	EXIT	0.22 ms
+16:40:50.944	127.0.0.1:59226	admin	OK		0.13 ms
+16:40:50.947	127.0.0.1:59228	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW14752']//Category[@ID='WAM'] return $mid/Link	0.21 ms
+16:40:51.359	127.0.0.1:59228	admin	OK	Query executed in 411.71 ms.	411.98 ms
+16:45:01.228	127.0.0.1:59288	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '765' order by $mid ascending return $mid	0.49 ms
+16:45:04.049	127.0.0.1:59288	admin	OK	Query executed in 2820.73 ms.	2821.19 ms
+16:45:04.070	127.0.0.1:59288	admin	REQUEST	EXIT	0.24 ms
+16:45:04.070	127.0.0.1:59288	admin	OK		0.13 ms
+16:45:04.073	127.0.0.1:59291	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW14752']//Category[@ID='WAM'] return $mid/Link	0.15 ms
+16:45:04.502	127.0.0.1:59291	admin	OK	Query executed in 428.04 ms.	428.32 ms
+16:45:04.549	127.0.0.1:59291	admin	REQUEST	EXIT	0.27 ms
+16:45:04.550	127.0.0.1:59291	admin	OK		0.17 ms
+16:45:26.394	127.0.0.1:59296	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	0.49 ms
+16:45:29.159	127.0.0.1:59296	admin	OK	Query executed in 2765.07 ms.	2765.53 ms
+16:45:29.197	127.0.0.1:59296	admin	REQUEST	EXIT	0.2 ms
+16:45:29.197	127.0.0.1:59296	admin	OK		0.13 ms
+16:45:30.963	127.0.0.1:59298	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00695']//Category[@ID='WAM'] return $mid/Link	0.62 ms
+16:45:31.406	127.0.0.1:59298	admin	OK	Query executed in 442.37 ms.	442.82 ms
+16:45:31.414	127.0.0.1:59298	admin	REQUEST	EXIT	0.18 ms
+16:45:31.414	127.0.0.1:59298	admin	OK		0.14 ms

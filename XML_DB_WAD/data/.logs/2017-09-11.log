@@ -1,0 +1,49 @@
+15:35:49.229	SERVER	admin	OK	Server was started (port: 1984).
+15:35:49.523	SERVER	admin	OK	HTTP Server was started (port: 8984).
+15:35:50.758	127.0.0.1:50778	admin	REQUEST	[GET] http://localhost:8984/
+15:35:51.757	127.0.0.1:50778	admin	200		1005.59 ms
+15:36:43.471	127.0.0.1:50809	admin	REQUEST	XQUERY for $mid in db:open('Inter-Data','MIDANDLINKS/BMW_Links.xml')//MID/id('BMW37457') order by $mid ascending return $mid	25.06 ms
+15:36:43.718	127.0.0.1:50809	admin	OK	Query executed in 245.37 ms.	246.29 ms
+15:36:44.054	127.0.0.1:50809	admin	REQUEST	EXIT	0.44 ms
+15:36:44.054	127.0.0.1:50809	admin	OK		0.28 ms
+15:45:54.977	127.0.0.1:50961	admin	REQUEST	XQUERY for $mid in db:open('Inter-Data','MIDANDLINKS/BMW_Links.xml')//MID/id('BMW37457') order by $mid ascending return $mid	0.5 ms
+15:45:55.045	127.0.0.1:50961	admin	OK	Query executed in 67.24 ms.	67.51 ms
+15:45:55.349	127.0.0.1:50961	admin	REQUEST	EXIT	0.32 ms
+15:45:55.349	127.0.0.1:50961	admin	OK		0.16 ms
+16:41:32.866	127.0.0.1:52053	admin	REQUEST	XQUERY for $mid in db:open('Inter-Data','MIDANDLINKS/BMW_Links.xml')//MID/id('BMW37457') order by $mid ascending return $mid	0.39 ms
+16:41:47.105	127.0.0.1:52069	admin	REQUEST	XQUERY for $mid in db:open('Inter-Data','MIDANDLINKS/BMW_Links.xml')//MID/id('BMW37457') order by $mid ascending return $mid	1.12 ms
+16:43:46.400	SERVER	admin	ERROR	Server is running or permission was denied.
+16:43:47.844	127.0.0.1:52121	admin	REQUEST	[GET] http://localhost:8984/
+16:43:47.876	127.0.0.1:52121	admin	200		32.35 ms
+16:43:51.728	127.0.0.1:52123	admin	REQUEST	XQUERY for $mid in db:open('Inter-Data','MIDANDLINKS/BMW_Links.xml')//MID/id('BMW37457') order by $mid ascending return $mid	0.64 ms
+16:44:32.456	127.0.0.1:52134	admin	REQUEST	XQUERY for $mid in db:open('Inter-Data','MIDANDLINKS/BMW_Links.xml')//MID where $mid / Category = '33098' order by $mid ascending return $mid / Category	0.94 ms
+16:45:34.094	127.0.0.1:52134	admin	ERROR	Connection failed.	61637.39 ms
+16:46:58.790	127.0.0.1:52168	admin	REQUEST	XQUERY <list> {for $i in 1 to 15 return <i>{$i}</i>}</list>	0.68 ms
+16:46:58.792	127.0.0.1:52168	admin	OK	Query executed in 1.13 ms.	1.36 ms
+16:46:58.805	127.0.0.1:52168	admin	REQUEST	EXIT	0.21 ms
+16:46:58.806	127.0.0.1:52168	admin	OK		0.15 ms
+16:47:25.294	127.0.0.1:52174	admin	REQUEST	XQUERY for $mid in db:open('Inter-Data','MIDANDLINKS/BMW_Links.xml')//MID/id('BMW37457') order by $mid ascending return $mid	0.77 ms
+17:00:01.412	127.0.0.1:52053	admin	ERROR	Interrupted.	1108531.13 ms
+17:00:01.413	127.0.0.1:52053	admin	ERROR	Connection failed.	0.44 ms
+17:00:13.421	127.0.0.1:52069	admin	ERROR	Interrupted.	1106299.62 ms
+17:00:13.422	127.0.0.1:52069	admin	ERROR	Connection failed.	0.6 ms
+17:00:30.351	127.0.0.1:52123	admin	ERROR	Interrupted.	998607.32 ms
+17:00:30.351	127.0.0.1:52123	admin	ERROR	Connection failed.	0.4 ms
+17:00:30.419	127.0.0.1:52174	admin	ERROR	Interrupted.	785113.76 ms
+17:00:30.419	127.0.0.1:52174	admin	ERROR	Connection failed.	0.16 ms
+17:00:47.593	127.0.0.1:52367	admin	REQUEST	XQUERY for $mid in doc('MIDANDLINKS/BMW_Links.xml')//MID/id('BMW37457') order by $mid ascending return $mid	0.58 ms
+17:00:47.596	127.0.0.1:52367	admin	ERROR	Stopped at ., 1/16: [FODC0002] Resource 'C:/Program Files (x86)/BaseX/MIDANDLINKS/BMW_Links.xml' does not exist.	2.2 ms
+17:00:47.604	127.0.0.1:52367	admin	REQUEST	EXIT	0.22 ms
+17:00:47.604	127.0.0.1:52367	admin	OK		0.15 ms
+17:01:22.338	127.0.0.1:52375	admin	REQUEST	XQUERY for $mid in doc('MIDANDLINKS/BMW_Links.xml')//MID/id('BMW37457') order by $mid ascending return $mid	0.37 ms
+17:01:22.338	127.0.0.1:52375	admin	ERROR	Stopped at ., 1/16: [FODC0002] Resource 'C:/Program Files (x86)/BaseX/MIDANDLINKS/BMW_Links.xml' does not exist.	0.58 ms
+17:01:22.347	127.0.0.1:52375	admin	REQUEST	EXIT	0.38 ms
+17:01:22.347	127.0.0.1:52375	admin	OK		0.16 ms
+17:01:48.037	127.0.0.1:52381	admin	REQUEST	XQUERY for $mid in doc('C:XML_DBInter-DataMIDANDLINKS/BMW_Links.xml')//MID/id('BMW37457') order by $mid ascending return $mid	0.44 ms
+17:01:48.063	127.0.0.1:52381	admin	ERROR	Stopped at ., 1/16: [FODC0002] "" (Line 1): Content ist nicht zulässig in Prolog.	25.36 ms
+17:01:48.069	127.0.0.1:52381	admin	REQUEST	EXIT	0.19 ms
+17:01:48.070	127.0.0.1:52381	admin	OK		0.15 ms
+17:02:12.021	127.0.0.1:52387	admin	REQUEST	XQUERY for $mid in doc('C:XML_DBInter-DataMIDANDLINKS/BMW_Links.xml')//MID/id('BMW37457') order by $mid ascending return $mid	0.47 ms
+17:02:12.024	127.0.0.1:52387	admin	ERROR	Stopped at ., 1/16: [FODC0002] "" (Line 1): Content ist nicht zulässig in Prolog.	3.5 ms
+17:02:12.031	127.0.0.1:52387	admin	REQUEST	EXIT	0.2 ms
+17:02:12.031	127.0.0.1:52387	admin	OK		0.14 ms

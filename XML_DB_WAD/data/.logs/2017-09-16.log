@@ -1,0 +1,662 @@
+15:55:47.720	SERVER	admin	OK	Server was started (port: 1984).
+15:55:47.969	SERVER	admin	OK	HTTP Server was started (port: 8984).
+15:55:49.295	127.0.0.1:53517	admin	REQUEST	[GET] http://localhost:8984/
+15:55:50.185	127.0.0.1:53517	admin	200		894.95 ms
+15:56:19.045	127.0.0.1:53525	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '404' order by $mid ascending return $mid	34.93 ms
+15:56:21.884	127.0.0.1:53525	admin	OK	Query executed in 2841.59 ms.	2842.48 ms
+15:56:21.884	127.0.0.1:53525	admin	REQUEST	EXIT	0.39 ms
+15:56:21.884	127.0.0.1:53525	admin	OK		0.25 ms
+15:56:25.675	127.0.0.1:53527	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00587']//Category[@ID='WAM'] return $mid/Link	1.02 ms
+15:56:26.205	127.0.0.1:53527	admin	OK	Query executed in 526.75 ms.	527.57 ms
+15:56:26.221	127.0.0.1:53527	admin	REQUEST	EXIT	0.26 ms
+15:56:26.221	127.0.0.1:53527	admin	OK		0.18 ms
+15:56:26.221	127.0.0.1:53528	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/04597.xml')//WAMDATA/ADB return $wam	0.37 ms
+15:56:26.221	127.0.0.1:53528	admin	OK	Query executed in 8.18 ms.	8.4 ms
+15:56:26.236	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='1'] return $item/TEXTLEFT	0.31 ms
+15:56:26.236	127.0.0.1:53528	admin	OK	Query executed in 3.77 ms.	3.99 ms
+15:56:26.236	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='2'] return $item/TEXTLEFT	0.19 ms
+15:56:26.236	127.0.0.1:53528	admin	OK	Query executed in 3.29 ms.	3.46 ms
+15:56:26.252	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='3'] return $item/TEXTLEFT	0.2 ms
+15:56:26.252	127.0.0.1:53528	admin	OK	Query executed in 3.34 ms.	3.53 ms
+15:56:26.252	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='4'] return $item/TEXTLEFT	0.18 ms
+15:56:26.252	127.0.0.1:53528	admin	OK	Query executed in 3.28 ms.	3.45 ms
+15:56:26.252	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='5'] return $item/TEXTLEFT	0.18 ms
+15:56:26.267	127.0.0.1:53528	admin	OK	Query executed in 3.18 ms.	3.36 ms
+15:56:26.267	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='6'] return $item/TEXTLEFT	0.21 ms
+15:56:26.267	127.0.0.1:53528	admin	OK	Query executed in 3.22 ms.	3.41 ms
+15:56:26.283	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='7'] return $item/TEXTLEFT	0.23 ms
+15:56:26.283	127.0.0.1:53528	admin	OK	Query executed in 3.44 ms.	3.65 ms
+15:56:26.283	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='8'] return $item/TEXTLEFT	0.2 ms
+15:56:26.283	127.0.0.1:53528	admin	OK	Query executed in 3.05 ms.	3.25 ms
+15:56:26.283	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='9'] return $item/TEXTLEFT	0.18 ms
+15:56:26.299	127.0.0.1:53528	admin	OK	Query executed in 3.5 ms.	3.69 ms
+15:56:26.299	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='10'] return $item/TEXTLEFT	0.18 ms
+15:56:26.299	127.0.0.1:53528	admin	OK	Query executed in 3.01 ms.	3.18 ms
+15:56:26.299	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='11'] return $item/TEXTLEFT	0.2 ms
+15:56:26.314	127.0.0.1:53528	admin	OK	Query executed in 3.47 ms.	3.67 ms
+15:56:26.314	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='12'] return $item/TEXTLEFT	0.19 ms
+15:56:26.314	127.0.0.1:53528	admin	OK	Query executed in 3.11 ms.	3.29 ms
+15:56:26.330	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='13'] return $item/TEXTLEFT	0.23 ms
+15:56:26.330	127.0.0.1:53528	admin	OK	Query executed in 3.33 ms.	3.58 ms
+15:56:26.330	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='14'] return $item/TEXTLEFT	0.19 ms
+15:56:26.345	127.0.0.1:53528	admin	OK	Query executed in 3.19 ms.	3.4 ms
+15:56:26.345	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='15'] return $item/TEXTLEFT	0.17 ms
+15:56:26.345	127.0.0.1:53528	admin	OK	Query executed in 3.01 ms.	3.19 ms
+15:56:26.345	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='16'] return $item/TEXTLEFT	0.15 ms
+15:56:26.361	127.0.0.1:53528	admin	OK	Query executed in 3.06 ms.	3.25 ms
+15:56:26.361	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='17'] return $item/TEXTLEFT	0.15 ms
+15:56:26.361	127.0.0.1:53528	admin	OK	Query executed in 2.82 ms.	2.99 ms
+15:56:26.361	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='18'] return $item/TEXTLEFT	0.15 ms
+15:56:26.361	127.0.0.1:53528	admin	OK	Query executed in 2.82 ms.	2.99 ms
+15:56:26.361	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='19'] return $item/TEXTLEFT	0.15 ms
+15:56:26.377	127.0.0.1:53528	admin	OK	Query executed in 3.17 ms.	3.36 ms
+15:56:26.377	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='20'] return $item/TEXTLEFT	0.15 ms
+15:56:26.377	127.0.0.1:53528	admin	OK	Query executed in 2.74 ms.	2.91 ms
+15:56:26.377	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='21'] return $item/TEXTLEFT	0.16 ms
+15:56:26.392	127.0.0.1:53528	admin	OK	Query executed in 2.85 ms.	3.03 ms
+15:56:26.392	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='22'] return $item/TEXTLEFT	0.16 ms
+15:56:26.392	127.0.0.1:53528	admin	OK	Query executed in 2.8 ms.	2.97 ms
+15:56:26.408	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='23'] return $item/TEXTLEFT	0.18 ms
+15:56:26.408	127.0.0.1:53528	admin	OK	Query executed in 2.79 ms.	3.01 ms
+15:56:26.408	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='24'] return $item/TEXTLEFT	0.17 ms
+15:56:26.408	127.0.0.1:53528	admin	OK	Query executed in 2.79 ms.	2.97 ms
+15:56:26.423	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='25'] return $item/TEXTLEFT	0.16 ms
+15:56:26.423	127.0.0.1:53528	admin	OK	Query executed in 2.87 ms.	3.06 ms
+15:56:26.423	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='26'] return $item/TEXTLEFT	0.17 ms
+15:56:26.439	127.0.0.1:53528	admin	OK	Query executed in 3.0 ms.	3.18 ms
+15:56:26.439	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='27'] return $item/TEXTLEFT	0.17 ms
+15:56:26.439	127.0.0.1:53528	admin	OK	Query executed in 2.8 ms.	2.98 ms
+15:56:26.455	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='28'] return $item/TEXTLEFT	0.17 ms
+15:56:26.455	127.0.0.1:53528	admin	OK	Query executed in 2.63 ms.	2.81 ms
+15:56:26.455	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='29'] return $item/TEXTLEFT	0.15 ms
+15:56:26.455	127.0.0.1:53528	admin	OK	Query executed in 2.61 ms.	2.78 ms
+15:56:26.470	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='30'] return $item/TEXTLEFT	0.18 ms
+15:56:26.470	127.0.0.1:53528	admin	OK	Query executed in 2.77 ms.	3.01 ms
+15:56:26.470	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='31'] return $item/TEXTLEFT	0.2 ms
+15:56:26.486	127.0.0.1:53528	admin	OK	Query executed in 3.17 ms.	3.42 ms
+15:56:26.486	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='32'] return $item/TEXTLEFT	0.18 ms
+15:56:26.486	127.0.0.1:53528	admin	OK	Query executed in 2.91 ms.	3.1 ms
+15:56:26.501	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='33'] return $item/TEXTLEFT	0.21 ms
+15:56:26.501	127.0.0.1:53528	admin	OK	Query executed in 3.01 ms.	3.22 ms
+15:56:26.501	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='34'] return $item/TEXTLEFT	0.22 ms
+15:56:26.501	127.0.0.1:53528	admin	OK	Query executed in 3.06 ms.	3.28 ms
+15:56:26.517	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='35'] return $item/TEXTLEFT	0.19 ms
+15:56:26.517	127.0.0.1:53528	admin	OK	Query executed in 2.87 ms.	3.09 ms
+15:56:26.517	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='36'] return $item/TEXTLEFT	0.18 ms
+15:56:26.517	127.0.0.1:53528	admin	OK	Query executed in 2.85 ms.	3.06 ms
+15:56:26.533	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='37'] return $item/TEXTLEFT	0.24 ms
+15:56:26.533	127.0.0.1:53528	admin	OK	Query executed in 2.91 ms.	3.14 ms
+15:56:26.533	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='38'] return $item/TEXTLEFT	0.17 ms
+15:56:26.533	127.0.0.1:53528	admin	OK	Query executed in 2.94 ms.	3.14 ms
+15:56:26.548	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='39'] return $item/TEXTLEFT	0.22 ms
+15:56:26.548	127.0.0.1:53528	admin	OK	Query executed in 2.87 ms.	3.1 ms
+15:56:26.548	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='40'] return $item/TEXTLEFT	0.18 ms
+15:56:26.548	127.0.0.1:53528	admin	OK	Query executed in 2.89 ms.	3.09 ms
+15:56:26.564	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='41'] return $item/TEXTLEFT	0.2 ms
+15:56:26.564	127.0.0.1:53528	admin	OK	Query executed in 2.94 ms.	3.18 ms
+15:56:26.564	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='42'] return $item/TEXTLEFT	0.18 ms
+15:56:26.564	127.0.0.1:53528	admin	OK	Query executed in 2.8 ms.	3.01 ms
+15:56:26.579	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='43'] return $item/TEXTLEFT	0.19 ms
+15:56:26.579	127.0.0.1:53528	admin	OK	Query executed in 2.87 ms.	3.08 ms
+15:56:26.595	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='44'] return $item/TEXTLEFT	0.21 ms
+15:56:26.595	127.0.0.1:53528	admin	OK	Query executed in 2.82 ms.	3.04 ms
+15:56:26.595	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='45'] return $item/TEXTLEFT	0.19 ms
+15:56:26.595	127.0.0.1:53528	admin	OK	Query executed in 2.8 ms.	3.01 ms
+15:56:26.611	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='46'] return $item/TEXTLEFT	0.21 ms
+15:56:26.611	127.0.0.1:53528	admin	OK	Query executed in 2.81 ms.	3.02 ms
+15:56:26.611	127.0.0.1:53528	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='47'] return $item/TEXTLEFT	0.2 ms
+15:56:26.611	127.0.0.1:53528	admin	OK	Query executed in 2.72 ms.	2.93 ms
+15:56:26.626	127.0.0.1:53528	admin	REQUEST	EXIT	0.29 ms
+15:56:26.626	127.0.0.1:53528	admin	OK		0.15 ms
+18:24:27.725	127.0.0.1:55673	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '422' order by $mid ascending return $mid	0.44 ms
+18:24:30.346	127.0.0.1:55673	admin	OK	Query executed in 2627.97 ms.	2628.46 ms
+18:24:30.362	127.0.0.1:55673	admin	REQUEST	EXIT	0.22 ms
+18:24:30.362	127.0.0.1:55673	admin	OK		0.12 ms
+18:24:37.897	127.0.0.1:55677	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00643']//Category[@ID='WAM'] return $mid/Link	0.3 ms
+18:24:38.302	127.0.0.1:55677	admin	OK	Query executed in 403.67 ms.	403.97 ms
+18:24:38.302	127.0.0.1:55677	admin	REQUEST	XQUERY for $vari in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00643']//Category[@ID='WAM'] return data($vari/Link/@*)	0.19 ms
+18:24:38.692	127.0.0.1:55677	admin	OK	Query executed in 393.32 ms.	393.59 ms
+18:24:38.708	127.0.0.1:55677	admin	REQUEST	XQUERY for $info in doc('C:/XML_DB/Inter-Data/MISCELLANEOUS/GER/varia_ger.xml')/AllVariants/Variant[@ID='3143'] return $info	0.25 ms
+18:24:38.833	127.0.0.1:55677	admin	OK	Query executed in 132.13 ms.	132.41 ms
+18:24:38.833	127.0.0.1:55677	admin	REQUEST	XQUERY for $info in doc('C:/XML_DB/Inter-Data/MISCELLANEOUS/GER/varia_ger.xml')/AllVariants/Variant[@ID='3142'] return $info	0.18 ms
+18:24:38.973	127.0.0.1:55677	admin	OK	Query executed in 132.56 ms.	132.79 ms
+18:24:38.973	127.0.0.1:55677	admin	REQUEST	EXIT	0.19 ms
+18:24:38.973	127.0.0.1:55677	admin	OK		0.16 ms
+18:24:49.425	127.0.0.1:55680	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/14751.xml')//WAMDATA/ADB return $wam	0.65 ms
+18:24:49.441	127.0.0.1:55680	admin	OK	Query executed in 11.94 ms.	12.48 ms
+18:24:49.456	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='1'] return $item/TEXTLEFT	0.4 ms
+18:24:49.472	127.0.0.1:55680	admin	OK	Query executed in 7.13 ms.	7.62 ms
+18:24:49.472	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='2'] return $item/TEXTLEFT	0.37 ms
+18:24:49.472	127.0.0.1:55680	admin	OK	Query executed in 6.36 ms.	6.78 ms
+18:24:49.487	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='3'] return $item/TEXTLEFT	0.38 ms
+18:24:49.487	127.0.0.1:55680	admin	OK	Query executed in 6.24 ms.	6.68 ms
+18:24:49.503	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='4'] return $item/TEXTLEFT	0.38 ms
+18:24:49.503	127.0.0.1:55680	admin	OK	Query executed in 6.18 ms.	6.62 ms
+18:24:49.519	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='5'] return $item/TEXTLEFT	0.38 ms
+18:24:49.519	127.0.0.1:55680	admin	OK	Query executed in 6.17 ms.	6.61 ms
+18:24:49.534	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='6'] return $item/TEXTLEFT	0.39 ms
+18:24:49.534	127.0.0.1:55680	admin	OK	Query executed in 6.16 ms.	6.6 ms
+18:24:49.534	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='7'] return $item/TEXTLEFT	0.36 ms
+18:24:49.550	127.0.0.1:55680	admin	OK	Query executed in 6.99 ms.	7.43 ms
+18:24:49.550	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='8'] return $item/TEXTLEFT	0.36 ms
+18:24:49.565	127.0.0.1:55680	admin	OK	Query executed in 4.29 ms.	4.66 ms
+18:24:49.565	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='9'] return $item/TEXTLEFT	0.21 ms
+18:24:49.565	127.0.0.1:55680	admin	OK	Query executed in 3.6 ms.	3.85 ms
+18:24:49.581	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='10'] return $item/TEXTLEFT	0.23 ms
+18:24:49.581	127.0.0.1:55680	admin	OK	Query executed in 3.62 ms.	3.95 ms
+18:24:49.581	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='11'] return $item/TEXTLEFT	0.22 ms
+18:24:49.597	127.0.0.1:55680	admin	OK	Query executed in 3.53 ms.	3.76 ms
+18:24:49.597	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='12'] return $item/TEXTLEFT	0.13 ms
+18:24:49.597	127.0.0.1:55680	admin	OK	Query executed in 2.43 ms.	2.59 ms
+18:24:49.597	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='13'] return $item/TEXTLEFT	0.14 ms
+18:24:49.612	127.0.0.1:55680	admin	OK	Query executed in 2.56 ms.	2.74 ms
+18:24:49.612	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='14'] return $item/TEXTLEFT	0.14 ms
+18:24:49.612	127.0.0.1:55680	admin	OK	Query executed in 2.32 ms.	2.48 ms
+18:24:49.628	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='15'] return $item/TEXTLEFT	0.15 ms
+18:24:49.628	127.0.0.1:55680	admin	OK	Query executed in 2.56 ms.	2.75 ms
+18:24:49.628	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='16'] return $item/TEXTLEFT	0.13 ms
+18:24:49.628	127.0.0.1:55680	admin	OK	Query executed in 2.3 ms.	2.47 ms
+18:24:49.628	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='17'] return $item/TEXTLEFT	0.14 ms
+18:24:49.628	127.0.0.1:55680	admin	OK	Query executed in 2.29 ms.	2.45 ms
+18:24:49.643	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='18'] return $item/TEXTLEFT	0.19 ms
+18:24:49.643	127.0.0.1:55680	admin	OK	Query executed in 2.59 ms.	2.81 ms
+18:24:49.643	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='19'] return $item/TEXTLEFT	0.16 ms
+18:24:49.643	127.0.0.1:55680	admin	OK	Query executed in 2.64 ms.	2.83 ms
+18:24:49.659	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='20'] return $item/TEXTLEFT	0.19 ms
+18:24:49.659	127.0.0.1:55680	admin	OK	Query executed in 2.71 ms.	2.92 ms
+18:24:49.659	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='21'] return $item/TEXTLEFT	0.17 ms
+18:24:49.659	127.0.0.1:55680	admin	OK	Query executed in 2.71 ms.	2.9 ms
+18:24:49.675	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='22'] return $item/TEXTLEFT	0.2 ms
+18:24:49.675	127.0.0.1:55680	admin	OK	Query executed in 2.73 ms.	2.95 ms
+18:24:49.690	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='23'] return $item/TEXTLEFT	0.25 ms
+18:24:49.690	127.0.0.1:55680	admin	OK	Query executed in 2.62 ms.	2.84 ms
+18:24:49.690	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='24'] return $item/TEXTLEFT	0.18 ms
+18:24:49.690	127.0.0.1:55680	admin	OK	Query executed in 2.72 ms.	2.92 ms
+18:24:49.706	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='25'] return $item/TEXTLEFT	0.19 ms
+18:24:49.706	127.0.0.1:55680	admin	OK	Query executed in 2.63 ms.	2.85 ms
+18:24:49.721	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='26'] return $item/TEXTLEFT	0.19 ms
+18:24:49.721	127.0.0.1:55680	admin	OK	Query executed in 2.63 ms.	2.85 ms
+18:24:49.721	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='27'] return $item/TEXTLEFT	0.18 ms
+18:24:49.737	127.0.0.1:55680	admin	OK	Query executed in 2.71 ms.	2.91 ms
+18:24:49.737	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='28'] return $item/TEXTLEFT	0.18 ms
+18:24:49.737	127.0.0.1:55680	admin	OK	Query executed in 2.71 ms.	2.92 ms
+18:24:49.737	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='29'] return $item/TEXTLEFT	0.15 ms
+18:24:49.753	127.0.0.1:55680	admin	OK	Query executed in 2.74 ms.	2.94 ms
+18:24:49.753	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='30'] return $item/TEXTLEFT	0.19 ms
+18:24:49.753	127.0.0.1:55680	admin	OK	Query executed in 2.71 ms.	2.93 ms
+18:24:49.768	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='31'] return $item/TEXTLEFT	0.19 ms
+18:24:49.768	127.0.0.1:55680	admin	OK	Query executed in 2.66 ms.	2.89 ms
+18:24:49.768	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='32'] return $item/TEXTLEFT	0.17 ms
+18:24:49.784	127.0.0.1:55680	admin	OK	Query executed in 2.72 ms.	2.93 ms
+18:24:49.784	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='33'] return $item/TEXTLEFT	0.15 ms
+18:24:49.784	127.0.0.1:55680	admin	OK	Query executed in 2.56 ms.	2.74 ms
+18:24:49.784	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='34'] return $item/TEXTLEFT	0.15 ms
+18:24:49.784	127.0.0.1:55680	admin	OK	Query executed in 2.53 ms.	2.7 ms
+18:24:49.799	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='35'] return $item/TEXTLEFT	0.19 ms
+18:24:49.799	127.0.0.1:55680	admin	OK	Query executed in 2.73 ms.	2.94 ms
+18:24:49.799	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='36'] return $item/TEXTLEFT	0.15 ms
+18:24:49.799	127.0.0.1:55680	admin	OK	Query executed in 2.72 ms.	2.9 ms
+18:24:49.815	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='37'] return $item/TEXTLEFT	0.19 ms
+18:24:49.815	127.0.0.1:55680	admin	OK	Query executed in 2.73 ms.	2.94 ms
+18:24:49.815	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='38'] return $item/TEXTLEFT	0.15 ms
+18:24:49.815	127.0.0.1:55680	admin	OK	Query executed in 2.61 ms.	2.79 ms
+18:24:49.831	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='39'] return $item/TEXTLEFT	0.2 ms
+18:24:49.831	127.0.0.1:55680	admin	OK	Query executed in 2.71 ms.	2.92 ms
+18:24:49.831	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='40'] return $item/TEXTLEFT	0.16 ms
+18:24:49.831	127.0.0.1:55680	admin	OK	Query executed in 2.74 ms.	2.94 ms
+18:24:49.846	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='41'] return $item/TEXTLEFT	0.19 ms
+18:24:49.846	127.0.0.1:55680	admin	OK	Query executed in 2.68 ms.	2.88 ms
+18:24:49.846	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='42'] return $item/TEXTLEFT	0.17 ms
+18:24:49.862	127.0.0.1:55680	admin	OK	Query executed in 2.69 ms.	2.93 ms
+18:24:49.862	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='43'] return $item/TEXTLEFT	0.17 ms
+18:24:49.862	127.0.0.1:55680	admin	OK	Query executed in 2.55 ms.	2.77 ms
+18:24:49.877	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='44'] return $item/TEXTLEFT	0.17 ms
+18:24:49.893	127.0.0.1:55680	admin	OK	Query executed in 15.44 ms.	15.69 ms
+18:24:49.893	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='45'] return $item/TEXTLEFT	0.23 ms
+18:24:49.893	127.0.0.1:55680	admin	OK	Query executed in 2.77 ms.	3.03 ms
+18:24:49.909	127.0.0.1:55680	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='46'] return $item/TEXTLEFT	0.27 ms
+18:24:49.909	127.0.0.1:55680	admin	OK	Query executed in 2.75 ms.	3.03 ms
+18:24:49.909	127.0.0.1:55680	admin	REQUEST	EXIT	0.15 ms
+18:24:49.909	127.0.0.1:55680	admin	OK		0.11 ms
+18:31:36.143	127.0.0.1:55803	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '422' order by $mid ascending return $mid	0.48 ms
+18:31:38.943	127.0.0.1:55803	admin	OK	Query executed in 2799.61 ms.	2800.07 ms
+18:31:38.951	127.0.0.1:55803	admin	REQUEST	EXIT	0.23 ms
+18:31:38.951	127.0.0.1:55803	admin	OK		0.11 ms
+18:31:43.479	127.0.0.1:55805	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00643']//Category[@ID='WAM'] return $mid/Link	0.59 ms
+18:31:43.910	127.0.0.1:55805	admin	OK	Query executed in 430.27 ms.	430.71 ms
+18:31:43.914	127.0.0.1:55805	admin	REQUEST	XQUERY for $vari in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00643']//Category[@ID='WAM'] return data($vari/Link/@*)	0.17 ms
+18:31:44.365	127.0.0.1:55805	admin	OK	Query executed in 450.68 ms.	450.91 ms
+18:31:44.368	127.0.0.1:55805	admin	REQUEST	XQUERY for $info in doc('C:/XML_DB/Inter-Data/MISCELLANEOUS/GER/varia_ger.xml')/AllVariants/Variant[@ID='3143'] return $info	0.19 ms
+18:31:44.497	127.0.0.1:55805	admin	OK	Query executed in 129.67 ms.	129.91 ms
+18:31:44.505	127.0.0.1:55805	admin	REQUEST	XQUERY for $info in doc('C:/XML_DB/Inter-Data/MISCELLANEOUS/GER/varia_ger.xml')/AllVariants/Variant[@ID='3142'] return $info	0.19 ms
+18:31:44.646	127.0.0.1:55805	admin	OK	Query executed in 141.22 ms.	141.46 ms
+18:31:44.652	127.0.0.1:55805	admin	REQUEST	EXIT	0.18 ms
+18:31:44.652	127.0.0.1:55805	admin	OK		0.11 ms
+18:31:47.725	127.0.0.1:55807	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/04611.xml')//WAMDATA/ADB return $wam	0.6 ms
+18:31:47.738	127.0.0.1:55807	admin	OK	Query executed in 12.74 ms.	13.27 ms
+18:31:47.754	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='1'] return $item/TEXTLEFT	0.59 ms
+18:31:47.761	127.0.0.1:55807	admin	OK	Query executed in 6.09 ms.	6.49 ms
+18:31:47.764	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='2'] return $item/TEXTLEFT	0.19 ms
+18:31:47.767	127.0.0.1:55807	admin	OK	Query executed in 3.05 ms.	3.27 ms
+18:31:47.771	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='3'] return $item/TEXTLEFT	0.18 ms
+18:31:47.774	127.0.0.1:55807	admin	OK	Query executed in 2.82 ms.	3.03 ms
+18:31:47.777	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='4'] return $item/TEXTLEFT	0.16 ms
+18:31:47.780	127.0.0.1:55807	admin	OK	Query executed in 2.82 ms.	3.02 ms
+18:31:47.783	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='5'] return $item/TEXTLEFT	0.15 ms
+18:31:47.786	127.0.0.1:55807	admin	OK	Query executed in 2.89 ms.	3.09 ms
+18:31:47.791	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='6'] return $item/TEXTLEFT	0.14 ms
+18:31:47.793	127.0.0.1:55807	admin	OK	Query executed in 2.43 ms.	2.61 ms
+18:31:47.797	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='7'] return $item/TEXTLEFT	0.13 ms
+18:31:47.799	127.0.0.1:55807	admin	OK	Query executed in 2.34 ms.	2.51 ms
+18:31:47.802	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='8'] return $item/TEXTLEFT	0.14 ms
+18:31:47.805	127.0.0.1:55807	admin	OK	Query executed in 2.48 ms.	2.65 ms
+18:31:47.809	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='9'] return $item/TEXTLEFT	0.15 ms
+18:31:47.812	127.0.0.1:55807	admin	OK	Query executed in 2.53 ms.	2.71 ms
+18:31:47.815	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='10'] return $item/TEXTLEFT	0.14 ms
+18:31:47.818	127.0.0.1:55807	admin	OK	Query executed in 2.53 ms.	2.71 ms
+18:31:47.823	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='11'] return $item/TEXTLEFT	0.15 ms
+18:31:47.825	127.0.0.1:55807	admin	OK	Query executed in 2.35 ms.	2.52 ms
+18:31:47.831	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='12'] return $item/TEXTLEFT	0.17 ms
+18:31:47.834	127.0.0.1:55807	admin	OK	Query executed in 2.54 ms.	2.74 ms
+18:31:47.840	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='13'] return $item/TEXTLEFT	0.16 ms
+18:31:47.843	127.0.0.1:55807	admin	OK	Query executed in 2.48 ms.	2.67 ms
+18:31:47.849	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='14'] return $item/TEXTLEFT	0.24 ms
+18:31:47.851	127.0.0.1:55807	admin	OK	Query executed in 2.6 ms.	2.8 ms
+18:31:47.858	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='15'] return $item/TEXTLEFT	0.16 ms
+18:31:47.861	127.0.0.1:55807	admin	OK	Query executed in 2.53 ms.	2.76 ms
+18:31:47.864	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='16'] return $item/TEXTLEFT	0.15 ms
+18:31:47.866	127.0.0.1:55807	admin	OK	Query executed in 2.53 ms.	2.71 ms
+18:31:47.869	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='17'] return $item/TEXTLEFT	0.15 ms
+18:31:47.871	127.0.0.1:55807	admin	OK	Query executed in 2.33 ms.	2.51 ms
+18:31:47.875	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='18'] return $item/TEXTLEFT	0.18 ms
+18:31:47.878	127.0.0.1:55807	admin	OK	Query executed in 2.65 ms.	2.87 ms
+18:31:47.881	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='19'] return $item/TEXTLEFT	0.18 ms
+18:31:47.884	127.0.0.1:55807	admin	OK	Query executed in 2.69 ms.	2.88 ms
+18:31:47.889	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='20'] return $item/TEXTLEFT	0.16 ms
+18:31:47.892	127.0.0.1:55807	admin	OK	Query executed in 2.66 ms.	2.86 ms
+18:31:47.898	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='21'] return $item/TEXTLEFT	0.18 ms
+18:31:47.901	127.0.0.1:55807	admin	OK	Query executed in 2.69 ms.	2.9 ms
+18:31:47.909	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='22'] return $item/TEXTLEFT	0.19 ms
+18:31:47.911	127.0.0.1:55807	admin	OK	Query executed in 2.63 ms.	2.84 ms
+18:31:47.920	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='23'] return $item/TEXTLEFT	0.18 ms
+18:31:47.923	127.0.0.1:55807	admin	OK	Query executed in 2.58 ms.	2.81 ms
+18:31:47.930	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='24'] return $item/TEXTLEFT	0.2 ms
+18:31:47.933	127.0.0.1:55807	admin	OK	Query executed in 2.67 ms.	2.89 ms
+18:31:47.942	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='25'] return $item/TEXTLEFT	0.19 ms
+18:31:47.944	127.0.0.1:55807	admin	OK	Query executed in 2.66 ms.	2.89 ms
+18:31:47.953	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='26'] return $item/TEXTLEFT	0.19 ms
+18:31:47.956	127.0.0.1:55807	admin	OK	Query executed in 2.7 ms.	3.02 ms
+18:31:47.964	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='27'] return $item/TEXTLEFT	0.18 ms
+18:31:47.967	127.0.0.1:55807	admin	OK	Query executed in 2.59 ms.	2.81 ms
+18:31:47.972	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='28'] return $item/TEXTLEFT	0.19 ms
+18:31:47.975	127.0.0.1:55807	admin	OK	Query executed in 2.77 ms.	2.99 ms
+18:31:47.979	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='29'] return $item/TEXTLEFT	0.17 ms
+18:31:47.982	127.0.0.1:55807	admin	OK	Query executed in 2.74 ms.	2.94 ms
+18:31:47.990	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='30'] return $item/TEXTLEFT	0.2 ms
+18:31:47.993	127.0.0.1:55807	admin	OK	Query executed in 2.71 ms.	2.95 ms
+18:31:48.001	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='31'] return $item/TEXTLEFT	0.17 ms
+18:31:48.004	127.0.0.1:55807	admin	OK	Query executed in 2.64 ms.	2.84 ms
+18:31:48.011	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='32'] return $item/TEXTLEFT	0.19 ms
+18:31:48.014	127.0.0.1:55807	admin	OK	Query executed in 2.71 ms.	2.92 ms
+18:31:48.017	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='33'] return $item/TEXTLEFT	0.18 ms
+18:31:48.020	127.0.0.1:55807	admin	OK	Query executed in 2.68 ms.	2.9 ms
+18:31:48.024	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='34'] return $item/TEXTLEFT	0.19 ms
+18:31:48.027	127.0.0.1:55807	admin	OK	Query executed in 2.66 ms.	2.89 ms
+18:31:48.033	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='35'] return $item/TEXTLEFT	0.17 ms
+18:31:48.036	127.0.0.1:55807	admin	OK	Query executed in 2.68 ms.	2.9 ms
+18:31:48.042	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='36'] return $item/TEXTLEFT	0.2 ms
+18:31:48.044	127.0.0.1:55807	admin	OK	Query executed in 2.64 ms.	2.85 ms
+18:31:48.049	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='37'] return $item/TEXTLEFT	0.18 ms
+18:31:48.052	127.0.0.1:55807	admin	OK	Query executed in 2.65 ms.	2.85 ms
+18:31:48.057	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='38'] return $item/TEXTLEFT	0.2 ms
+18:31:48.060	127.0.0.1:55807	admin	OK	Query executed in 2.86 ms.	3.08 ms
+18:31:48.064	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='39'] return $item/TEXTLEFT	0.2 ms
+18:31:48.067	127.0.0.1:55807	admin	OK	Query executed in 2.71 ms.	2.93 ms
+18:31:48.072	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='40'] return $item/TEXTLEFT	0.17 ms
+18:31:48.075	127.0.0.1:55807	admin	OK	Query executed in 2.76 ms.	2.96 ms
+18:31:48.081	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='41'] return $item/TEXTLEFT	0.21 ms
+18:31:48.084	127.0.0.1:55807	admin	OK	Query executed in 2.69 ms.	2.9 ms
+18:31:48.091	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='42'] return $item/TEXTLEFT	0.19 ms
+18:31:48.094	127.0.0.1:55807	admin	OK	Query executed in 2.62 ms.	2.87 ms
+18:31:48.100	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='43'] return $item/TEXTLEFT	0.19 ms
+18:31:48.103	127.0.0.1:55807	admin	OK	Query executed in 2.68 ms.	2.9 ms
+18:31:48.110	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='44'] return $item/TEXTLEFT	0.19 ms
+18:31:48.113	127.0.0.1:55807	admin	OK	Query executed in 2.75 ms.	2.98 ms
+18:31:48.119	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='45'] return $item/TEXTLEFT	0.18 ms
+18:31:48.122	127.0.0.1:55807	admin	OK	Query executed in 2.65 ms.	2.89 ms
+18:31:48.127	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='46'] return $item/TEXTLEFT	0.19 ms
+18:31:48.130	127.0.0.1:55807	admin	OK	Query executed in 2.6 ms.	2.82 ms
+18:31:48.135	127.0.0.1:55807	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='47'] return $item/TEXTLEFT	0.19 ms
+18:31:48.138	127.0.0.1:55807	admin	OK	Query executed in 2.68 ms.	2.89 ms
+18:31:48.143	127.0.0.1:55807	admin	REQUEST	EXIT	0.14 ms
+18:31:48.143	127.0.0.1:55807	admin	OK		0.14 ms
+18:45:47.545	127.0.0.1:55999	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '422' order by $mid ascending return $mid	0.51 ms
+18:45:50.294	127.0.0.1:55999	admin	OK	Query executed in 2747.61 ms.	2748.12 ms
+18:45:50.302	127.0.0.1:55999	admin	REQUEST	EXIT	0.23 ms
+18:45:50.302	127.0.0.1:55999	admin	OK		0.11 ms
+18:45:53.282	127.0.0.1:56001	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00643']//Category[@ID='WAM'] return $mid/Link	0.64 ms
+18:45:53.753	127.0.0.1:56001	admin	OK	Query executed in 470.4 ms.	470.84 ms
+18:45:53.756	127.0.0.1:56001	admin	REQUEST	XQUERY for $vari in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00643']//Category[@ID='WAM'] return data($vari/Link/@*)	0.19 ms
+18:45:54.166	127.0.0.1:56001	admin	OK	Query executed in 409.07 ms.	409.31 ms
+18:45:54.169	127.0.0.1:56001	admin	REQUEST	XQUERY for $info in doc('C:/XML_DB/Inter-Data/MISCELLANEOUS/GER/varia_ger.xml')/AllVariants/Variant[@ID='3143'] return $info	0.18 ms
+18:45:54.301	127.0.0.1:56001	admin	OK	Query executed in 132.34 ms.	132.58 ms
+18:45:54.309	127.0.0.1:56001	admin	REQUEST	XQUERY for $info in doc('C:/XML_DB/Inter-Data/MISCELLANEOUS/GER/varia_ger.xml')/AllVariants/Variant[@ID='3142'] return $info	0.2 ms
+18:45:54.451	127.0.0.1:56001	admin	OK	Query executed in 142.03 ms.	142.28 ms
+18:45:54.457	127.0.0.1:56001	admin	REQUEST	EXIT	0.17 ms
+18:45:54.457	127.0.0.1:56001	admin	OK		0.11 ms
+18:45:56.712	127.0.0.1:56002	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/14751.xml')//WAMDATA/ADB return $wam	0.62 ms
+18:45:56.718	127.0.0.1:56002	admin	OK	Query executed in 6.32 ms.	6.86 ms
+18:45:56.733	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='1'] return $item/TEXTLEFT	0.24 ms
+18:45:56.737	127.0.0.1:56002	admin	OK	Query executed in 3.6 ms.	3.92 ms
+18:45:56.741	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='2'] return $item/TEXTLEFT	0.2 ms
+18:45:56.745	127.0.0.1:56002	admin	OK	Query executed in 3.39 ms.	3.65 ms
+18:45:56.749	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='3'] return $item/TEXTLEFT	0.21 ms
+18:45:56.753	127.0.0.1:56002	admin	OK	Query executed in 3.43 ms.	3.75 ms
+18:45:56.756	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='4'] return $item/TEXTLEFT	0.21 ms
+18:45:56.760	127.0.0.1:56002	admin	OK	Query executed in 3.42 ms.	3.67 ms
+18:45:56.763	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='5'] return $item/TEXTLEFT	0.15 ms
+18:45:56.766	127.0.0.1:56002	admin	OK	Query executed in 2.32 ms.	2.5 ms
+18:45:56.769	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='6'] return $item/TEXTLEFT	0.17 ms
+18:45:56.772	127.0.0.1:56002	admin	OK	Query executed in 2.48 ms.	2.67 ms
+18:45:56.775	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='7'] return $item/TEXTLEFT	0.13 ms
+18:45:56.778	127.0.0.1:56002	admin	OK	Query executed in 2.29 ms.	2.46 ms
+18:45:56.781	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='8'] return $item/TEXTLEFT	0.15 ms
+18:45:56.783	127.0.0.1:56002	admin	OK	Query executed in 2.3 ms.	2.47 ms
+18:45:56.788	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='9'] return $item/TEXTLEFT	0.15 ms
+18:45:56.791	127.0.0.1:56002	admin	OK	Query executed in 2.38 ms.	2.56 ms
+18:45:56.794	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='10'] return $item/TEXTLEFT	0.13 ms
+18:45:56.796	127.0.0.1:56002	admin	OK	Query executed in 2.25 ms.	2.41 ms
+18:45:56.800	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='11'] return $item/TEXTLEFT	0.15 ms
+18:45:56.803	127.0.0.1:56002	admin	OK	Query executed in 2.4 ms.	2.58 ms
+18:45:56.810	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='12'] return $item/TEXTLEFT	0.16 ms
+18:45:56.812	127.0.0.1:56002	admin	OK	Query executed in 2.37 ms.	2.55 ms
+18:45:56.818	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='13'] return $item/TEXTLEFT	0.16 ms
+18:45:56.821	127.0.0.1:56002	admin	OK	Query executed in 2.39 ms.	2.6 ms
+18:45:56.827	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='14'] return $item/TEXTLEFT	0.15 ms
+18:45:56.830	127.0.0.1:56002	admin	OK	Query executed in 2.39 ms.	2.57 ms
+18:45:56.836	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='15'] return $item/TEXTLEFT	0.16 ms
+18:45:56.838	127.0.0.1:56002	admin	OK	Query executed in 2.34 ms.	2.52 ms
+18:45:56.842	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='16'] return $item/TEXTLEFT	0.13 ms
+18:45:56.844	127.0.0.1:56002	admin	OK	Query executed in 2.35 ms.	2.54 ms
+18:45:56.848	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='17'] return $item/TEXTLEFT	0.13 ms
+18:45:56.850	127.0.0.1:56002	admin	OK	Query executed in 2.25 ms.	2.41 ms
+18:45:56.854	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='18'] return $item/TEXTLEFT	0.2 ms
+18:45:56.856	127.0.0.1:56002	admin	OK	Query executed in 2.55 ms.	2.76 ms
+18:45:56.860	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='19'] return $item/TEXTLEFT	0.2 ms
+18:45:56.863	127.0.0.1:56002	admin	OK	Query executed in 2.7 ms.	2.93 ms
+18:45:56.867	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='20'] return $item/TEXTLEFT	0.21 ms
+18:45:56.870	127.0.0.1:56002	admin	OK	Query executed in 2.74 ms.	2.98 ms
+18:45:56.876	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='21'] return $item/TEXTLEFT	0.75 ms
+18:45:56.880	127.0.0.1:56002	admin	OK	Query executed in 2.69 ms.	2.93 ms
+18:45:56.886	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='22'] return $item/TEXTLEFT	0.22 ms
+18:45:56.889	127.0.0.1:56002	admin	OK	Query executed in 2.62 ms.	2.85 ms
+18:45:56.899	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='23'] return $item/TEXTLEFT	0.31 ms
+18:45:56.902	127.0.0.1:56002	admin	OK	Query executed in 2.8 ms.	3.07 ms
+18:45:56.912	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='24'] return $item/TEXTLEFT	0.28 ms
+18:45:56.915	127.0.0.1:56002	admin	OK	Query executed in 2.91 ms.	3.16 ms
+18:45:56.923	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='25'] return $item/TEXTLEFT	0.25 ms
+18:45:56.926	127.0.0.1:56002	admin	OK	Query executed in 2.8 ms.	3.08 ms
+18:45:56.935	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='26'] return $item/TEXTLEFT	0.19 ms
+18:45:56.938	127.0.0.1:56002	admin	OK	Query executed in 2.71 ms.	2.95 ms
+18:45:56.947	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='27'] return $item/TEXTLEFT	0.2 ms
+18:45:56.950	127.0.0.1:56002	admin	OK	Query executed in 2.73 ms.	2.96 ms
+18:45:56.955	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='28'] return $item/TEXTLEFT	0.21 ms
+18:45:56.958	127.0.0.1:56002	admin	OK	Query executed in 2.81 ms.	3.07 ms
+18:45:56.964	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='29'] return $item/TEXTLEFT	0.21 ms
+18:45:56.966	127.0.0.1:56002	admin	OK	Query executed in 2.62 ms.	2.85 ms
+18:45:56.974	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='30'] return $item/TEXTLEFT	0.19 ms
+18:45:56.977	127.0.0.1:56002	admin	OK	Query executed in 2.65 ms.	2.86 ms
+18:45:56.985	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='31'] return $item/TEXTLEFT	0.22 ms
+18:45:56.988	127.0.0.1:56002	admin	OK	Query executed in 2.66 ms.	2.88 ms
+18:45:56.995	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='32'] return $item/TEXTLEFT	0.17 ms
+18:45:56.998	127.0.0.1:56002	admin	OK	Query executed in 2.66 ms.	2.9 ms
+18:45:57.002	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='33'] return $item/TEXTLEFT	0.18 ms
+18:45:57.005	127.0.0.1:56002	admin	OK	Query executed in 2.69 ms.	2.89 ms
+18:45:57.010	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='34'] return $item/TEXTLEFT	0.21 ms
+18:45:57.013	127.0.0.1:56002	admin	OK	Query executed in 2.67 ms.	2.87 ms
+18:45:57.019	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='35'] return $item/TEXTLEFT	0.19 ms
+18:45:57.022	127.0.0.1:56002	admin	OK	Query executed in 2.73 ms.	2.93 ms
+18:45:57.027	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='36'] return $item/TEXTLEFT	0.19 ms
+18:45:57.030	127.0.0.1:56002	admin	OK	Query executed in 2.8 ms.	3.0 ms
+18:45:57.036	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='37'] return $item/TEXTLEFT	0.2 ms
+18:45:57.039	127.0.0.1:56002	admin	OK	Query executed in 2.65 ms.	2.86 ms
+18:45:57.043	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='38'] return $item/TEXTLEFT	0.19 ms
+18:45:57.046	127.0.0.1:56002	admin	OK	Query executed in 2.68 ms.	2.87 ms
+18:45:57.053	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='39'] return $item/TEXTLEFT	0.19 ms
+18:45:57.056	127.0.0.1:56002	admin	OK	Query executed in 2.52 ms.	2.71 ms
+18:45:57.061	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='40'] return $item/TEXTLEFT	0.17 ms
+18:45:57.064	127.0.0.1:56002	admin	OK	Query executed in 2.66 ms.	2.87 ms
+18:45:57.070	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='41'] return $item/TEXTLEFT	0.19 ms
+18:45:57.073	127.0.0.1:56002	admin	OK	Query executed in 2.75 ms.	2.97 ms
+18:45:57.080	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='42'] return $item/TEXTLEFT	0.18 ms
+18:45:57.083	127.0.0.1:56002	admin	OK	Query executed in 2.6 ms.	2.81 ms
+18:45:57.090	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='43'] return $item/TEXTLEFT	0.19 ms
+18:45:57.093	127.0.0.1:56002	admin	OK	Query executed in 2.6 ms.	2.81 ms
+18:45:57.099	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='44'] return $item/TEXTLEFT	0.19 ms
+18:45:57.102	127.0.0.1:56002	admin	OK	Query executed in 2.68 ms.	2.9 ms
+18:45:57.108	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='45'] return $item/TEXTLEFT	0.22 ms
+18:45:57.111	127.0.0.1:56002	admin	OK	Query executed in 2.6 ms.	2.82 ms
+18:45:57.118	127.0.0.1:56002	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='46'] return $item/TEXTLEFT	0.21 ms
+18:45:57.121	127.0.0.1:56002	admin	OK	Query executed in 2.62 ms.	2.86 ms
+18:45:57.126	127.0.0.1:56002	admin	REQUEST	EXIT	0.18 ms
+18:45:57.127	127.0.0.1:56002	admin	OK		0.14 ms
+18:46:33.351	127.0.0.1:56011	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '422' order by $mid ascending return $mid	0.48 ms
+18:46:36.118	127.0.0.1:56011	admin	OK	Query executed in 2766.82 ms.	2767.28 ms
+18:46:36.126	127.0.0.1:56011	admin	REQUEST	EXIT	0.16 ms
+18:46:36.126	127.0.0.1:56011	admin	OK		0.1 ms
+18:46:37.976	127.0.0.1:56013	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00643']//Category[@ID='WAM'] return $mid/Link	0.23 ms
+18:46:38.449	127.0.0.1:56013	admin	OK	Query executed in 472.36 ms.	472.62 ms
+18:46:38.453	127.0.0.1:56013	admin	REQUEST	XQUERY for $vari in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00643']//Category[@ID='WAM'] return data($vari/Link/@*)	0.21 ms
+18:46:38.864	127.0.0.1:56013	admin	OK	Query executed in 411.43 ms.	411.68 ms
+18:46:38.867	127.0.0.1:56013	admin	REQUEST	XQUERY for $info in doc('C:/XML_DB/Inter-Data/MISCELLANEOUS/GER/varia_ger.xml')/AllVariants/Variant[@ID='3143'] return $info	0.24 ms
+18:46:38.997	127.0.0.1:56013	admin	OK	Query executed in 129.23 ms.	129.48 ms
+18:46:39.004	127.0.0.1:56013	admin	REQUEST	XQUERY for $info in doc('C:/XML_DB/Inter-Data/MISCELLANEOUS/GER/varia_ger.xml')/AllVariants/Variant[@ID='3142'] return $info	0.21 ms
+18:46:39.150	127.0.0.1:56013	admin	OK	Query executed in 145.09 ms.	145.35 ms
+18:46:39.155	127.0.0.1:56013	admin	REQUEST	EXIT	0.17 ms
+18:46:39.155	127.0.0.1:56013	admin	OK		0.11 ms
+18:46:40.975	127.0.0.1:56014	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/14751.xml')//WAMDATA/ADB return $wam	0.41 ms
+18:46:40.981	127.0.0.1:56014	admin	OK	Query executed in 6.22 ms.	6.69 ms
+18:46:40.996	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='1'] return $item/TEXTLEFT	0.35 ms
+18:46:41.003	127.0.0.1:56014	admin	OK	Query executed in 6.05 ms.	6.47 ms
+18:46:41.009	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='2'] return $item/TEXTLEFT	0.34 ms
+18:46:41.013	127.0.0.1:56014	admin	OK	Query executed in 3.91 ms.	4.24 ms
+18:46:41.017	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='3'] return $item/TEXTLEFT	0.17 ms
+18:46:41.020	127.0.0.1:56014	admin	OK	Query executed in 2.63 ms.	2.82 ms
+18:46:41.023	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='4'] return $item/TEXTLEFT	0.17 ms
+18:46:41.026	127.0.0.1:56014	admin	OK	Query executed in 2.66 ms.	2.87 ms
+18:46:41.029	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='5'] return $item/TEXTLEFT	0.14 ms
+18:46:41.032	127.0.0.1:56014	admin	OK	Query executed in 2.63 ms.	2.8 ms
+18:46:41.036	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='6'] return $item/TEXTLEFT	0.15 ms
+18:46:41.039	127.0.0.1:56014	admin	OK	Query executed in 2.62 ms.	2.81 ms
+18:46:41.042	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='7'] return $item/TEXTLEFT	0.14 ms
+18:46:41.045	127.0.0.1:56014	admin	OK	Query executed in 2.63 ms.	2.81 ms
+18:46:41.049	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='8'] return $item/TEXTLEFT	0.15 ms
+18:46:41.052	127.0.0.1:56014	admin	OK	Query executed in 2.61 ms.	2.78 ms
+18:46:41.057	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='9'] return $item/TEXTLEFT	0.17 ms
+18:46:41.060	127.0.0.1:56014	admin	OK	Query executed in 2.71 ms.	2.9 ms
+18:46:41.063	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='10'] return $item/TEXTLEFT	0.15 ms
+18:46:41.066	127.0.0.1:56014	admin	OK	Query executed in 2.69 ms.	2.87 ms
+18:46:41.071	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='11'] return $item/TEXTLEFT	0.17 ms
+18:46:41.074	127.0.0.1:56014	admin	OK	Query executed in 2.72 ms.	2.91 ms
+18:46:41.081	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='12'] return $item/TEXTLEFT	0.16 ms
+18:46:41.084	127.0.0.1:56014	admin	OK	Query executed in 2.83 ms.	3.02 ms
+18:46:41.091	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='13'] return $item/TEXTLEFT	0.16 ms
+18:46:41.094	127.0.0.1:56014	admin	OK	Query executed in 2.63 ms.	2.82 ms
+18:46:41.101	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='14'] return $item/TEXTLEFT	0.16 ms
+18:46:41.104	127.0.0.1:56014	admin	OK	Query executed in 2.68 ms.	2.89 ms
+18:46:41.111	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='15'] return $item/TEXTLEFT	0.16 ms
+18:46:41.114	127.0.0.1:56014	admin	OK	Query executed in 2.72 ms.	2.92 ms
+18:46:41.118	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='16'] return $item/TEXTLEFT	0.17 ms
+18:46:41.121	127.0.0.1:56014	admin	OK	Query executed in 2.69 ms.	2.88 ms
+18:46:41.124	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='17'] return $item/TEXTLEFT	0.14 ms
+18:46:41.127	127.0.0.1:56014	admin	OK	Query executed in 2.74 ms.	2.91 ms
+18:46:41.131	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='18'] return $item/TEXTLEFT	0.2 ms
+18:46:41.135	127.0.0.1:56014	admin	OK	Query executed in 2.88 ms.	3.12 ms
+18:46:41.139	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='19'] return $item/TEXTLEFT	0.2 ms
+18:46:41.142	127.0.0.1:56014	admin	OK	Query executed in 2.82 ms.	3.03 ms
+18:46:41.146	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='20'] return $item/TEXTLEFT	0.18 ms
+18:46:41.149	127.0.0.1:56014	admin	OK	Query executed in 2.87 ms.	3.08 ms
+18:46:41.157	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='21'] return $item/TEXTLEFT	0.19 ms
+18:46:41.160	127.0.0.1:56014	admin	OK	Query executed in 2.88 ms.	3.1 ms
+18:46:41.168	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='22'] return $item/TEXTLEFT	0.2 ms
+18:46:41.171	127.0.0.1:56014	admin	OK	Query executed in 2.93 ms.	3.15 ms
+18:46:41.180	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='23'] return $item/TEXTLEFT	0.17 ms
+18:46:41.184	127.0.0.1:56014	admin	OK	Query executed in 3.02 ms.	3.23 ms
+18:46:41.193	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='24'] return $item/TEXTLEFT	0.2 ms
+18:46:41.196	127.0.0.1:56014	admin	OK	Query executed in 2.89 ms.	3.12 ms
+18:46:41.205	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='25'] return $item/TEXTLEFT	0.2 ms
+18:46:41.208	127.0.0.1:56014	admin	OK	Query executed in 2.85 ms.	3.08 ms
+18:46:41.219	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='26'] return $item/TEXTLEFT	0.21 ms
+18:46:41.222	127.0.0.1:56014	admin	OK	Query executed in 3.03 ms.	3.27 ms
+18:46:41.231	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='27'] return $item/TEXTLEFT	0.18 ms
+18:46:41.234	127.0.0.1:56014	admin	OK	Query executed in 2.89 ms.	3.12 ms
+18:46:41.240	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='28'] return $item/TEXTLEFT	0.19 ms
+18:46:41.243	127.0.0.1:56014	admin	OK	Query executed in 2.84 ms.	3.06 ms
+18:46:41.249	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='29'] return $item/TEXTLEFT	0.19 ms
+18:46:41.252	127.0.0.1:56014	admin	OK	Query executed in 2.88 ms.	3.1 ms
+18:46:41.261	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='30'] return $item/TEXTLEFT	0.2 ms
+18:46:41.264	127.0.0.1:56014	admin	OK	Query executed in 2.86 ms.	3.1 ms
+18:46:41.273	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='31'] return $item/TEXTLEFT	0.19 ms
+18:46:41.276	127.0.0.1:56014	admin	OK	Query executed in 2.91 ms.	3.12 ms
+18:46:41.283	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='32'] return $item/TEXTLEFT	0.19 ms
+18:46:41.286	127.0.0.1:56014	admin	OK	Query executed in 2.9 ms.	3.12 ms
+18:46:41.291	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='33'] return $item/TEXTLEFT	0.18 ms
+18:46:41.294	127.0.0.1:56014	admin	OK	Query executed in 2.82 ms.	3.03 ms
+18:46:41.298	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='34'] return $item/TEXTLEFT	0.18 ms
+18:46:41.301	127.0.0.1:56014	admin	OK	Query executed in 2.82 ms.	3.04 ms
+18:46:41.308	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='35'] return $item/TEXTLEFT	0.17 ms
+18:46:41.311	127.0.0.1:56014	admin	OK	Query executed in 2.81 ms.	3.01 ms
+18:46:41.317	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='36'] return $item/TEXTLEFT	0.16 ms
+18:46:41.320	127.0.0.1:56014	admin	OK	Query executed in 2.59 ms.	2.78 ms
+18:46:41.325	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='37'] return $item/TEXTLEFT	0.19 ms
+18:46:41.328	127.0.0.1:56014	admin	OK	Query executed in 2.56 ms.	2.75 ms
+18:46:41.332	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='38'] return $item/TEXTLEFT	0.17 ms
+18:46:41.334	127.0.0.1:56014	admin	OK	Query executed in 2.56 ms.	2.74 ms
+18:46:41.339	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='39'] return $item/TEXTLEFT	0.18 ms
+18:46:41.341	127.0.0.1:56014	admin	OK	Query executed in 2.48 ms.	2.69 ms
+18:46:41.347	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='40'] return $item/TEXTLEFT	0.19 ms
+18:46:41.350	127.0.0.1:56014	admin	OK	Query executed in 2.61 ms.	2.82 ms
+18:46:41.356	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='41'] return $item/TEXTLEFT	0.21 ms
+18:46:41.359	127.0.0.1:56014	admin	OK	Query executed in 2.61 ms.	2.83 ms
+18:46:41.366	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='42'] return $item/TEXTLEFT	0.21 ms
+18:46:41.369	127.0.0.1:56014	admin	OK	Query executed in 2.69 ms.	2.92 ms
+18:46:41.377	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='43'] return $item/TEXTLEFT	0.19 ms
+18:46:41.379	127.0.0.1:56014	admin	OK	Query executed in 2.49 ms.	2.68 ms
+18:46:41.384	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='44'] return $item/TEXTLEFT	0.17 ms
+18:46:41.387	127.0.0.1:56014	admin	OK	Query executed in 2.59 ms.	2.77 ms
+18:46:41.394	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='45'] return $item/TEXTLEFT	0.2 ms
+18:46:41.397	127.0.0.1:56014	admin	OK	Query executed in 2.71 ms.	2.92 ms
+18:46:41.403	127.0.0.1:56014	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='46'] return $item/TEXTLEFT	0.19 ms
+18:46:41.406	127.0.0.1:56014	admin	OK	Query executed in 2.64 ms.	2.84 ms
+18:46:41.411	127.0.0.1:56014	admin	REQUEST	EXIT	0.16 ms
+18:46:41.411	127.0.0.1:56014	admin	OK		0.11 ms
+18:51:58.556	127.0.0.1:56086	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/kbalinks_02_08_2016_XML.xml')//record where $mid / hsn = '0005' and $mid / tsn = '422' order by $mid ascending return $mid	0.45 ms
+18:52:01.346	127.0.0.1:56086	admin	OK	Query executed in 2789.96 ms.	2790.39 ms
+18:52:01.354	127.0.0.1:56086	admin	REQUEST	EXIT	0.22 ms
+18:52:01.354	127.0.0.1:56086	admin	OK		0.13 ms
+18:52:04.588	127.0.0.1:56088	admin	REQUEST	XQUERY for $mid in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00643']//Category[@ID='WAM'] return $mid/Link	0.63 ms
+18:52:05.053	127.0.0.1:56088	admin	OK	Query executed in 464.18 ms.	464.6 ms
+18:52:05.057	127.0.0.1:56088	admin	REQUEST	XQUERY for $vari in doc('C:/XML_DB/Inter-Data/MIDANDLINKS/BMW_Links.xml')//MID[@ID='BMW00643']//Category[@ID='WAM'] return data($vari/Link/@*)	0.19 ms
+18:52:05.474	127.0.0.1:56088	admin	OK	Query executed in 416.19 ms.	416.43 ms
+18:52:05.477	127.0.0.1:56088	admin	REQUEST	XQUERY for $info in doc('C:/XML_DB/Inter-Data/MISCELLANEOUS/GER/varia_ger.xml')/AllVariants/Variant[@ID='3143'] return $info	0.17 ms
+18:52:05.608	127.0.0.1:56088	admin	OK	Query executed in 130.9 ms.	131.12 ms
+18:52:05.615	127.0.0.1:56088	admin	REQUEST	XQUERY for $info in doc('C:/XML_DB/Inter-Data/MISCELLANEOUS/GER/varia_ger.xml')/AllVariants/Variant[@ID='3142'] return $info	0.18 ms
+18:52:05.759	127.0.0.1:56088	admin	OK	Query executed in 143.21 ms.	143.47 ms
+18:52:05.764	127.0.0.1:56088	admin	REQUEST	EXIT	0.16 ms
+18:52:05.764	127.0.0.1:56088	admin	OK		0.1 ms
+18:52:07.914	127.0.0.1:56090	admin	REQUEST	XQUERY for $wam in doc('C:/XML_DB/Inter-Data/WHEEL_ALIGNMENT/DATA/14751.xml')//WAMDATA/ADB return $wam	0.4 ms
+18:52:07.921	127.0.0.1:56090	admin	OK	Query executed in 6.2 ms.	6.65 ms
+18:52:07.937	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='1'] return $item/TEXTLEFT	0.34 ms
+18:52:07.943	127.0.0.1:56090	admin	OK	Query executed in 5.68 ms.	6.07 ms
+18:52:07.949	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='2'] return $item/TEXTLEFT	0.33 ms
+18:52:07.955	127.0.0.1:56090	admin	OK	Query executed in 5.58 ms.	5.98 ms
+18:52:07.963	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='3'] return $item/TEXTLEFT	0.33 ms
+18:52:07.969	127.0.0.1:56090	admin	OK	Query executed in 5.56 ms.	5.96 ms
+18:52:07.975	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='4'] return $item/TEXTLEFT	0.33 ms
+18:52:07.981	127.0.0.1:56090	admin	OK	Query executed in 5.66 ms.	6.04 ms
+18:52:07.988	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='5'] return $item/TEXTLEFT	0.33 ms
+18:52:07.994	127.0.0.1:56090	admin	OK	Query executed in 5.75 ms.	6.14 ms
+18:52:08.003	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='6'] return $item/TEXTLEFT	0.33 ms
+18:52:08.008	127.0.0.1:56090	admin	OK	Query executed in 5.57 ms.	5.96 ms
+18:52:08.013	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='7'] return $item/TEXTLEFT	0.18 ms
+18:52:08.017	127.0.0.1:56090	admin	OK	Query executed in 3.49 ms.	3.71 ms
+18:52:08.022	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='8'] return $item/TEXTLEFT	0.2 ms
+18:52:08.025	127.0.0.1:56090	admin	OK	Query executed in 3.41 ms.	3.65 ms
+18:52:08.032	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='9'] return $item/TEXTLEFT	0.2 ms
+18:52:08.035	127.0.0.1:56090	admin	OK	Query executed in 3.27 ms.	3.49 ms
+18:52:08.040	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='10'] return $item/TEXTLEFT	0.2 ms
+18:52:08.043	127.0.0.1:56090	admin	OK	Query executed in 2.49 ms.	2.7 ms
+18:52:08.047	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='11'] return $item/TEXTLEFT	0.14 ms
+18:52:08.050	127.0.0.1:56090	admin	OK	Query executed in 2.5 ms.	2.69 ms
+18:52:08.057	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='12'] return $item/TEXTLEFT	0.15 ms
+18:52:08.059	127.0.0.1:56090	admin	OK	Query executed in 2.37 ms.	2.57 ms
+18:52:08.065	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='13'] return $item/TEXTLEFT	0.13 ms
+18:52:08.067	127.0.0.1:56090	admin	OK	Query executed in 2.36 ms.	2.52 ms
+18:52:08.074	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='14'] return $item/TEXTLEFT	0.14 ms
+18:52:08.076	127.0.0.1:56090	admin	OK	Query executed in 2.36 ms.	2.52 ms
+18:52:08.082	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='15'] return $item/TEXTLEFT	0.15 ms
+18:52:08.085	127.0.0.1:56090	admin	OK	Query executed in 2.36 ms.	2.53 ms
+18:52:08.088	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='16'] return $item/TEXTLEFT	0.13 ms
+18:52:08.091	127.0.0.1:56090	admin	OK	Query executed in 2.38 ms.	2.54 ms
+18:52:08.094	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='17'] return $item/TEXTLEFT	0.13 ms
+18:52:08.097	127.0.0.1:56090	admin	OK	Query executed in 2.23 ms.	2.39 ms
+18:52:08.100	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='18'] return $item/TEXTLEFT	0.18 ms
+18:52:08.103	127.0.0.1:56090	admin	OK	Query executed in 2.57 ms.	2.78 ms
+18:52:08.107	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='19'] return $item/TEXTLEFT	0.15 ms
+18:52:08.109	127.0.0.1:56090	admin	OK	Query executed in 2.6 ms.	2.8 ms
+18:52:08.114	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='20'] return $item/TEXTLEFT	0.2 ms
+18:52:08.117	127.0.0.1:56090	admin	OK	Query executed in 2.72 ms.	2.96 ms
+18:52:08.124	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='21'] return $item/TEXTLEFT	0.19 ms
+18:52:08.126	127.0.0.1:56090	admin	OK	Query executed in 2.58 ms.	2.78 ms
+18:52:08.133	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='22'] return $item/TEXTLEFT	0.18 ms
+18:52:08.136	127.0.0.1:56090	admin	OK	Query executed in 2.74 ms.	2.94 ms
+18:52:08.145	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='23'] return $item/TEXTLEFT	0.18 ms
+18:52:08.148	127.0.0.1:56090	admin	OK	Query executed in 2.72 ms.	2.92 ms
+18:52:08.157	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='24'] return $item/TEXTLEFT	0.18 ms
+18:52:08.160	127.0.0.1:56090	admin	OK	Query executed in 2.76 ms.	2.97 ms
+18:52:08.167	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='25'] return $item/TEXTLEFT	0.18 ms
+18:52:08.170	127.0.0.1:56090	admin	OK	Query executed in 2.64 ms.	2.86 ms
+18:52:08.179	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='26'] return $item/TEXTLEFT	0.18 ms
+18:52:08.182	127.0.0.1:56090	admin	OK	Query executed in 2.56 ms.	2.77 ms
+18:52:08.191	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='27'] return $item/TEXTLEFT	0.18 ms
+18:52:08.194	127.0.0.1:56090	admin	OK	Query executed in 2.76 ms.	2.97 ms
+18:52:08.199	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='28'] return $item/TEXTLEFT	0.18 ms
+18:52:08.202	127.0.0.1:56090	admin	OK	Query executed in 2.66 ms.	2.86 ms
+18:52:08.207	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='29'] return $item/TEXTLEFT	0.17 ms
+18:52:08.210	127.0.0.1:56090	admin	OK	Query executed in 2.68 ms.	2.86 ms
+18:52:08.218	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='30'] return $item/TEXTLEFT	0.19 ms
+18:52:08.220	127.0.0.1:56090	admin	OK	Query executed in 2.44 ms.	2.62 ms
+18:52:08.229	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='31'] return $item/TEXTLEFT	0.17 ms
+18:52:08.231	127.0.0.1:56090	admin	OK	Query executed in 2.44 ms.	2.64 ms
+18:52:08.238	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='32'] return $item/TEXTLEFT	0.19 ms
+18:52:08.241	127.0.0.1:56090	admin	OK	Query executed in 2.7 ms.	2.91 ms
+18:52:08.245	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='33'] return $item/TEXTLEFT	0.18 ms
+18:52:08.248	127.0.0.1:56090	admin	OK	Query executed in 2.65 ms.	2.85 ms
+18:52:08.252	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='34'] return $item/TEXTLEFT	0.16 ms
+18:52:08.255	127.0.0.1:56090	admin	OK	Query executed in 2.6 ms.	2.79 ms
+18:52:08.261	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='35'] return $item/TEXTLEFT	0.18 ms
+18:52:08.264	127.0.0.1:56090	admin	OK	Query executed in 2.82 ms.	3.03 ms
+18:52:08.270	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='36'] return $item/TEXTLEFT	0.17 ms
+18:52:08.272	127.0.0.1:56090	admin	OK	Query executed in 2.58 ms.	2.76 ms
+18:52:08.278	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='37'] return $item/TEXTLEFT	0.2 ms
+18:52:08.281	127.0.0.1:56090	admin	OK	Query executed in 2.63 ms.	2.81 ms
+18:52:08.285	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='38'] return $item/TEXTLEFT	0.2 ms
+18:52:08.288	127.0.0.1:56090	admin	OK	Query executed in 2.61 ms.	2.82 ms
+18:52:08.293	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='39'] return $item/TEXTLEFT	0.17 ms
+18:52:08.295	127.0.0.1:56090	admin	OK	Query executed in 2.56 ms.	2.76 ms
+18:52:08.301	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='40'] return $item/TEXTLEFT	0.19 ms
+18:52:08.304	127.0.0.1:56090	admin	OK	Query executed in 2.6 ms.	2.81 ms
+18:52:08.309	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='41'] return $item/TEXTLEFT	0.17 ms
+18:52:08.312	127.0.0.1:56090	admin	OK	Query executed in 2.72 ms.	2.92 ms
+18:52:08.320	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='42'] return $item/TEXTLEFT	0.16 ms
+18:52:08.322	127.0.0.1:56090	admin	OK	Query executed in 2.51 ms.	2.7 ms
+18:52:08.330	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='43'] return $item/TEXTLEFT	0.17 ms
+18:52:08.332	127.0.0.1:56090	admin	OK	Query executed in 2.61 ms.	2.8 ms
+18:52:08.338	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='44'] return $item/TEXTLEFT	0.17 ms
+18:52:08.341	127.0.0.1:56090	admin	OK	Query executed in 2.61 ms.	2.81 ms
+18:52:08.348	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='45'] return $item/TEXTLEFT	0.18 ms
+18:52:08.350	127.0.0.1:56090	admin	OK	Query executed in 2.51 ms.	2.69 ms
+18:52:08.356	127.0.0.1:56090	admin	REQUEST	XQUERY for $item in doc('C:/XML_DB/Inter-Data/SCRIPTS/GER/wa_ger.xml')//ITEM[@ID='46'] return $item/TEXTLEFT	0.17 ms
+18:52:08.359	127.0.0.1:56090	admin	OK	Query executed in 2.6 ms.	2.79 ms
+18:52:08.364	127.0.0.1:56090	admin	REQUEST	EXIT	0.14 ms
+18:52:08.365	127.0.0.1:56090	admin	OK		0.11 ms
